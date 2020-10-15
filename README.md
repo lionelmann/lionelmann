@@ -2,20 +2,4 @@ I'm the Lead Developer for a design, development, and strategy firm and founding
 
 Current Stack
 
-- Vue
-- Vuex
-- Nuxt.js
-- Wordpress
-- Strapi
-- PHP
-- Javascript
-- MySQL
-- Firebase
-- REST API
-- GraphQL
-- Apollo
-- Node.js
-- Apache
-- NGINX
-- Git
-- PM2
+Vue, Vuex, Nuxt.js, Wordpress, Strapi, PHP, Javascript, MySQL, Firebase, REST API, GraphQL, Apollo, Node.js, Apache, NGINX, Git, PM2
