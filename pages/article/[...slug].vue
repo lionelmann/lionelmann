@@ -8,11 +8,11 @@
             <h1 class="display-2 mg-bottom-24px">{{ doc.title }}</h1>
             <p>{{ doc.description }}</p>
           </div>
-          <ContentRenderer :value="doc" class="inner_container"/>
+          <ContentRenderer :value="doc" class="inner_container" />
         </ContentDoc>
       </div>
     </section>
-  </NuxtLayout> 
+  </NuxtLayout>
 </template>
 
 <script setup lang="ts">
@@ -25,17 +25,16 @@ section {
 }
 
 .inner_container {
-    max-width: 794px;
-    margin-right: auto;
-    margin-left: auto;
+  max-width: 794px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .heading-top-line {
-    width: 100%;
-    max-width: 118px;
-    min-height: 5px;
-    margin-bottom: 24px;
-    background-color: #fff;
+  width: 100%;
+  max-width: 118px;
+  min-height: 5px;
+  margin-bottom: 24px;
+  background-color: #fff;
 }
-
 </style>
