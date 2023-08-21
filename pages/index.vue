@@ -1,13 +1,14 @@
 <template>
-  <TheHeader />
+  <!--<TheHeader />-->
   <TheHero />
-  <MyCaseStudies />
-  <MyTestimonials />
   <MySkills />
-  <MyLatestArticles />
+  <!--<MyCaseStudies />-->
+  <MyTestimonials />
+
+  <!--<MyLatestArticles />-->
   <MyClients />
-  <MyExperience />
-  <MyEducation />
-  <MyTools />
+  <!--<MyExperience />-->
+  <!--<MyEducation />-->
+  <!--<MyTools />-->
   <TheFooter />
 </template>

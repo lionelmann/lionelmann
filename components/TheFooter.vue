@@ -58,6 +58,7 @@ const hover = ref(false);
 footer {
   border-top: 1px solid #5d6c83;
   padding-top: 120px;
+  margin-top: 120px;
 }
 .avatar {
   min-height: 132px;
