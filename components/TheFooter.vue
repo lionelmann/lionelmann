@@ -11,19 +11,19 @@
             />
             <div>
               <h4 class="display-5">Lionel Mann</h4>
-              <span class="text-400">Development Lead</span>
+              <span class="text-400">Creativity 👏🏻 Process 👏🏻 Teamwork 👏🏻</span>
             </div>
           </div>
           <SocialIcons />
         </div>
-        <div class="contact">
+        <!--<div class="contact">
           <NuxtLink
             to="/contact"
             @mouseover="hover = true"
             @mouseleave="hover = false"
           >
             <div class="display-3">
-              Get in touch
+              Let's Talk
               <Icon
                 name="heroicons:arrow-right"
                 color="#075fe4"
@@ -36,14 +36,9 @@
               />
             </div>
           </NuxtLink>
-          <div class="text-uppercase">Email Me:</div>
-
-          <LinkCTA
-            text="lionelmann@gmail.com"
-            link="mailto:lionelmann@gmail.com"
-          />
+          <LinkCTA text="EMAIL ME" link="mailto:lionelmann@gmail.com" />
         </div>
-      </div>
+      --></div>
     </div>
 
     <TheCopyright />
@@ -75,7 +70,7 @@ footer {
 }
 
 .text-400 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.083em;
   font-weight: 500;
   color: #8895aa;

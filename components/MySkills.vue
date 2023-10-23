@@ -10,7 +10,7 @@
             Over 10 years of experience and 100+ projects
           </h2>
         </div>
-        <LinkCTA text="Get in Touch" link="/contact" />
+        <LinkCTA text="Get in Touch" link="maito:lionelmann@gmail.com" />
       </div>
       <Divider />
       <div class="grid-3-columns">
@@ -31,7 +31,7 @@
             <li>HTML & CSS</li>
             <li>JavaScript</li>
             <li>Git</li>
-            <li>Vue.js</li>
+            <li>Vue</li>
             <li>Nuxt 2 & 3</li>
 
             <li>WordPress API</li>
@@ -66,13 +66,9 @@
               development.
             </li>
             <li>Fidelity to design specifics, feature planning.</li>
+            <li>Managing team time, performance and communication.</li>
             <li>
-              Tracking time between projects and sharing daily updates on my
-              work
-            </li>
-            <li>
-              Talking about technical details with clients in ways that
-              non-technical people can understand
+              Talking technical terms with clients in non-technical language.
             </li>
           </ul>
         </div>

@@ -65,9 +65,6 @@
             alt="Google - Developer X Webflow Template"
           />
         </div>
-        <div class="center">
-          <LinkCTA text="Get in Touch" link="/contact" class="center" />
-        </div>
       </div>
     </div>
   </section>

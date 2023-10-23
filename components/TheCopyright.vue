@@ -4,7 +4,10 @@
     <div class="grid-copyright">
       <div class="grid-item"><Menu /></div>
       <div class="grid-item">
-        <p>© Lionel Mann {{ d.getFullYear() }}. Built with</p>
+        <p>
+          © Lionel Mann {{ d.getFullYear() }}. Built with
+          <img src="/logo-nuxt.svg" />
+        </p>
       </div>
     </div>
   </div>
@@ -55,5 +58,10 @@ a {
 a:hover {
   color: #8895aa;
   border-bottom: 1px solid #8895aa;
+}
+
+img {
+  width: 62px;
+  height: auto;
 }
 </style>

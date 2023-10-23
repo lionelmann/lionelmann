@@ -1,18 +1,17 @@
 <template>
   <section>
     <div class="container-default w-container">
-      <div class="grid-2-columns hero-avatar-right">
+      <div class="grid-2-columnss hero-avatar-right">
         <div>
           <div class="heading-top-line-large"></div>
-          <h1 class="display-2">Hello, I'm<br />Lionel Mann</h1>
-          <p>
-            I'm the Lead Developer for a design, development, and strategy firm
-            and founding Canadian B Corporation. I lead and mentor the
-            development team. Research new technologies to integrate into our
-            development stack and processes. And help clients transform their
-            business vision into technical data-driven reality.
-          </p>
-          <Divider top="52px" bottom="20px" />
+          <h1 class="display-2">
+            Team-oriented, development lead with 10<span class="color-accent-1"
+              >+</span
+            >
+            years experience; based in Montreal, Canada.
+          </h1>
+
+          <!--<Divider top="52px" bottom="20px" />
           <div class="grid-2-columns even">
             <div class="flex">
               <div class="display-2 mg-right-16px">
@@ -26,12 +25,12 @@
               </div>
               <div class="text-300 bold">Successful Projects</div>
             </div>
-          </div>
+          </div>-->
         </div>
-        <img
+        <!--<img
           src="https://avatars.githubusercontent.com/u/1795752?v=4"
           class="avatar-circle"
-        />
+        />-->
       </div>
     </div>
   </section>

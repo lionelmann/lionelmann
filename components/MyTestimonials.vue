@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="container-default w-container">
-      <div class="grid-2-columns">
+      <div class="grid-2-columns-offcenter">
         <div>
           <div class="subtitle">
             <span class="color-accent-1">/</span> Testimonials
@@ -45,7 +45,7 @@
               :src="testimonial.logo"
               loading="eager"
               alt="Outpost Logo"
-              class="mg-bottom-40px"
+              class="mg-bottom-20px"
             />
             <p class="display-5-custom mg-bottom-56px">
               {{ testimonial.quote }}
@@ -131,15 +131,20 @@ const testimonials = [
   justify-self: end;
 }
 
-.grid-2-columns {
+.grid-2-columns-offcenter {
+  display: grid;
   grid-template-columns: 1.5fr 1fr;
   margin-bottom: 64px;
 }
 
 @media (max-width: 768px) {
-  .grid-2-columns {
+  .grid-2-columns-offcenter {
     grid-template-columns: 1fr;
   }
+}
+
+.mg-bottom-20px {
+  margin-bottom: 20px;
 }
 
 .mg-bottom-40px {
@@ -176,6 +181,7 @@ const testimonials = [
   color: #fff;
   font-size: 26px;
   font-weight: 400;
+  line-height: 1.4;
 }
 
 /* the new container */
