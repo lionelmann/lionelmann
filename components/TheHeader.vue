@@ -2,7 +2,8 @@
   <header class="container-default w-container">
     <div class="logo">
       <NuxtLink to="/" class="header-logo-link">
-        <img src="/logoipsum-211.svg" alt="Lionel Mann" class="header-logo" />
+        Lionel Mann Studio
+        <!--<img src="/logoipsum-211.svg" alt="Lionel Mann" class="header-logo" />-->
       </NuxtLink>
     </div>
     <Menu />

@@ -1,11 +1,8 @@
 <template>
   <TheHeader />
-  <TheHero />
 
   <div class="container-default w-container">
-    <Divider top="96px" bottom="96px" />
-    <MyClients />
-    <Divider top="96px" bottom="96px" />
+    <MyExperience />
 
     <div class="grid-testimonials">
       <MyTestimonialsRevised
@@ -14,28 +11,21 @@
         :testimonial="testimonial"
       />
     </div>
+    <MyEducation />
+  </div>
 
-    <Divider top="96px" bottom="96px" />
-    <div><h1 class="display-2">Principles to build a better web</h1></div>
-    <Divider top="96px" bottom="96px" />
+  <!--<MySkills />-->
+  <!--<MyCaseStudies />-->
 
+  <!--<MyLatestArticles />-->
+
+  <!--<MyTools />-->
+
+  <div class="container-default w-container">
+    <Divider top="96px" bottom="96px" />
     <div class="grid-testimonials">
       <MyTestimonialsRevised
-        v-for="(testimonial, index) in testimonials.slice(3, 7)"
-        :key="index"
-        :testimonial="testimonial"
-      />
-    </div>
-
-    <Divider top="96px" bottom="96px" />
-
-    <About />
-
-    <Divider top="96px" bottom="96px" />
-
-    <div class="grid-testimonials">
-      <MyTestimonialsRevised
-        v-for="(testimonial, index) in testimonials.slice(8, 10)"
+        v-for="(testimonial, index) in testimonials.slice(0, 4)"
         :key="index"
         :testimonial="testimonial"
       />
@@ -54,9 +44,5 @@ import testimonials from "~/assets/json/testimonials.json";
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 40px;
   margin: 48px auto;
-}
-
-.display-2 {
-  font: normal 400 72px/110% Lora;
 }
 </style>

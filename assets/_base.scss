@@ -11,7 +11,7 @@ body {
     background-color: #1b1f24;
     font-family: 'Space Grotesk', sans-serif;
     font-display: optional;
-    color: #c3cad5;
+    color: white;
     font-size: 16px;
     line-height: 1.667em;
     font-weight: 400;
@@ -22,8 +22,8 @@ body {
 
 .container-default {
     max-width: 1268px;
-    padding-right: 24px;
-    padding-left: 24px;
+    padding-right: 48px;
+    padding-left: 48px;
 }
 
 .w-container {
@@ -57,13 +57,13 @@ h1, h2, h3, h4, h5, h6 {
 .display-2 {
   color: #fff;
   font-size: 56px;
-  line-height: 1.132;
-  font-weight: 700;
+  line-height: 140%;
+  font-weight: 500;
 }
 
 @media (min-width: 769px) {
   .display-2 {
-    font-size: 76px;
+    font-size:50px;
     line-height: 1.118;
   }
 }
@@ -71,10 +71,11 @@ h1, h2, h3, h4, h5, h6 {
 .display-3 {
   color: #fff;
   font-size: 42px;
-  line-height: 1.231;
-  font-weight: 700;
+  line-height: 120%;
+  font-weight: 500;
   margin-bottom: 0;
   margin-top: 0;
+  font-family: 'Lora'
 }
 
 @media (min-width: 769px) {
@@ -122,6 +123,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .color-accent-1 {
   color: #075fe4;
+  font-size: 18px;
+  
+  
 }
 
 .subtitle {
@@ -145,9 +149,9 @@ img {
   max-width: 100%;
 }
 
-section {
+/*section {
   padding-top: 240px;
-}
+}*/
 
 .center {
   text-align: center;

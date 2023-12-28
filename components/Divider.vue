@@ -11,10 +11,10 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .divider {
-  margin-top: 66px;
-  margin-bottom: 78px;
+  margin-top: 96px;
+  margin-bottom: 96px;
   height: 1px;
   opacity: 1;
-  background-color: #5d6c83;
+  background-color: #3d4757;
 }
 </style>

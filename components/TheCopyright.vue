@@ -1,11 +1,10 @@
 <template>
   <div class="container-default w-container">
-    <Divider top="110px" bottom="0px" />
     <div class="grid-copyright">
       <div class="grid-item"><Menu /></div>
       <div class="grid-item">
         <p>
-          © Lionel Mann {{ d.getFullYear() }}. Built with
+          © 2002 - {{ d.getFullYear() }}. Built with
           <img src="/logo-nuxt.svg" />
         </p>
       </div>
@@ -21,8 +20,8 @@ const d = new Date();
 .grid-copyright {
   display: grid;
   margin: 0 auto;
-  grid-template-columns: 0.6fr 1fr;
-  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px;
 }
 
 @media (max-width: 767px) {
@@ -33,7 +32,7 @@ const d = new Date();
 
 .grid-item {
   display: grid;
-  height: 80px;
+  height: 96px;
   justify-items: left;
   align-items: center;
 }

@@ -1,20 +1,20 @@
 <template>
   <footer>
+    <Divider top="96px" bottom="48px" />
     <div class="container-default w-container">
       <div class="grid-2-columns">
         <div>
           <div class="row">
-            <img
+            <!--<img
               src="https://avatars.githubusercontent.com/u/1795752?v=4"
               alt="Lionel Mann"
               class="avatar"
-            />
+            />-->
             <div>
-              <h4 class="display-5">Lionel Mann</h4>
-              <span class="text-400">Creativity 👏🏻 Process 👏🏻 Teamwork 👏🏻</span>
+              <h4 class="display-5">Lionel Mann Studio</h4>
             </div>
           </div>
-          <SocialIcons />
+          <!--<SocialIcons />-->
         </div>
         <!--<div class="contact">
           <NuxtLink
@@ -50,11 +50,6 @@ const hover = ref(false);
 </script>
 
 <style lang="scss" scoped>
-footer {
-  border-top: 1px solid #5d6c83;
-  padding-top: 120px;
-  margin-top: 120px;
-}
 .avatar {
   min-height: 132px;
   min-width: 132px;
@@ -64,34 +59,18 @@ footer {
 
 .row {
   display: grid;
-  grid-template-columns: 132px 1fr; /* First column width: 132px, Second column takes remaining space */
-  align-items: center; /* Vertically center items */
+  grid-template-columns: 132px 1fr;
+  align-items: center;
   gap: 24px;
-}
-
-.text-400 {
-  font-size: 20px;
-  line-height: 1.083em;
-  font-weight: 500;
-  color: #8895aa;
-}
-
-.display-3 {
-  margin-bottom: 40px;
 }
 
 a {
   text-decoration: none;
 }
 
-.contact {
-  justify-self: end;
-}
-
-@media (max-width: 768px) {
-  .contact {
-    justify-self: start;
-    margin-top: 50px;
-  }
+.display-5 {
+  text-transform: uppercase;
+  line-height: 110%;
+  font-size: 1.4rem;
 }
 </style>

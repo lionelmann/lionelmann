@@ -1,14 +1,14 @@
 <template>
   <section>
-    <div class="container-default w-container">
+    <div>
       <div class="card past-clients">
         <div class="inner-container">
           <div class="center">
-            <div class="subtitle">
-              <span class="color-accent-1">/</span> My Past Clients
-            </div>
+            <!--<div class="subtitle">
+              <span class="color-accent-1">/</span> Clients
+            </div>-->
             <h2 class="display-3">
-              Brands & companies I have collaborated with
+              Organizations, companies & founders I've collaborated with
             </h2>
           </div>
         </div>
@@ -74,23 +74,23 @@
 
 <style lang="scss" scoped>
 .card {
-  border-radius: 28px;
+  border-radius: 24px;
   background-color: #2d343f;
 }
 
 .past-clients {
-  padding: 142px 62px 160px;
+  padding: 128px 64px 128px;
 }
 
 .inner-container {
-  max-width: 648px;
+  max-width: 700px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .grid-5-columns {
   display: grid;
-  grid-column-gap: 28px;
+  grid-column-gap: 32px;
   grid-row-gap: 16px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 56px;
@@ -106,6 +106,10 @@
   margin-bottom: 72px;
   justify-content: center;
   justify-items: center;
-  gap: 60px;
+  gap: 56px;
+}
+
+.display-3 {
+  font: normal;
 }
 </style>

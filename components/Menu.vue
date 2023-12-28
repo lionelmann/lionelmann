@@ -19,7 +19,7 @@
           transition: 'opacity 300ms ease',
         }"
       >
-        <NuxtLink to="/">Home</NuxtLink>
+        <NuxtLink to="/">How I Work</NuxtLink>
       </li>
       <li
         @mouseover="
@@ -39,7 +39,7 @@
           transition: 'opacity 300ms ease',
         }"
       >
-        <NuxtLink to="/about">About</NuxtLink>
+        <NuxtLink to="/about">The Continuum</NuxtLink>
       </li>
       <li
         @mouseover="
@@ -59,7 +59,8 @@
           transition: 'opacity 300ms ease',
         }"
       >
-        <NuxtLink to="/case-studies">Case Studies</NuxtLink>
+        <NuxtLink to="/case-studies">Ethics</NuxtLink>
+        <!--<NuxtLink to="/case-studies">Case Studies</NuxtLink>-->
       </li>
       <li
         @mouseover="
@@ -79,17 +80,28 @@
           transition: 'opacity 300ms ease',
         }"
       >
-        <NuxtLink to="/contact">Contact</NuxtLink>
+        <NuxtLink to="/case-studies">Work with Me</NuxtLink>
       </li>
+      <!--<li>
+        <h1>Color mode: {{ $colorMode.value }}</h1>
+        <select v-model="$colorMode.preference">
+          <option value="system">System</option>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+          <option value="sepia">Sepia</option>
+        </select>
+      </li>-->
     </ul>
   </nav>
 </template>
 
 <script setup>
+const colorMode = useColorMode();
 const hoverHome = ref(false);
 const hoverAbout = ref(false);
 const hoverCaseStudies = ref(false);
 const hoverContact = ref(false);
+console.log(colorMode);
 </script>
 
 <style lang="scss" scoped>
@@ -107,6 +119,7 @@ nav {
   justify-content: flex-end;
   align-items: center;
   list-style-type: none;
+  text-transform: uppercase;
 }
 
 .menu li {
@@ -119,7 +132,7 @@ nav {
   text-decoration: none;
   padding: 0px;
   color: #f0f2f4;
-  font-size: 20px;
+  font-size: 1.1rem;
   position: relative;
   display: inline-block;
   vertical-align: top;

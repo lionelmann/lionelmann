@@ -2,17 +2,26 @@
   <section>
     <div class="container-default w-container">
       <div class="grid-2-columnss hero-avatar-right">
-        <div>
-          <div class="heading-top-line-large"></div>
+        <!--<p class="meta">
+          Independent "Jack of all trades" developer + web strategist
+        </p>-->
+        <div class="title">
           <h1 class="display-2">
+            Hey there, I help organisations, startups and purpose-driven
+            businesses create positively memorable user experiences.
+          </h1>
+          <p class="link">Book a Call</p>
+
+          <!--<div class="heading-top-line-large"></div>-->
+          <!--<h1 class="display-2">
             Team-oriented, development lead with 10<span class="color-accent-1"
               >+</span
             >
             years experience; based in Montreal, Canada.
-          </h1>
+          </h1>-->
 
-          <!--<Divider top="52px" bottom="20px" />
-          <div class="grid-2-columns even">
+          <!--<Divider top="96px" bottom="96px" />-->
+          <!--<div class="grid-2-columns even">
             <div class="flex">
               <div class="display-2 mg-right-16px">
                 10<span class="color-accent-1">+</span>
@@ -25,12 +34,14 @@
               </div>
               <div class="text-300 bold">Successful Projects</div>
             </div>
-          </div>-->
-        </div>
-        <!--<img
+          </div>
+        </div>-->
+
+          <!--<img
           src="https://avatars.githubusercontent.com/u/1795752?v=4"
           class="avatar-circle"
         />-->
+        </div>
       </div>
     </div>
   </section>
@@ -40,7 +51,7 @@
 
 <style lang="scss" scoped>
 section {
-  /*padding-bottom: 240px;*/
+  padding-top: 100px;
 }
 .hero-avatar-right {
   grid-column-gap: 34px;
@@ -82,5 +93,21 @@ section {
 
 .mg-right-16px {
   margin-right: 16px;
+}
+
+.display-2 {
+  width: 80%;
+  font: normal 400 72px/110% Lora;
+}
+
+.link {
+  text-transform: uppercase;
+}
+
+.meta {
+  text-transform: uppercase;
+  //color: rgb(65 190 117);
+  font-weight: 700;
+  font-size: 18px;
 }
 </style>
