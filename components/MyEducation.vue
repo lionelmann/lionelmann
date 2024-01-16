@@ -75,7 +75,6 @@ const educationItems = [
 
 <style lang="scss" scoped>
 section {
-  background-color: rgba(45, 52, 63, 0.4);
   padding: 240px 0px;
 }
 

@@ -67,9 +67,9 @@ img {
 
 blockquote {
   margin: 0 0 3rem 0;
-  font-size: 1.6rem;
-  line-height: 38px;
-  letter-spacing: -0.025em;
+  font-size: 1.5rem;
+  line-height: 140%;
+
   color: #969ba6;
 }
 

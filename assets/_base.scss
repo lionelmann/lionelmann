@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #1b1f24;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Ubuntu';
     font-display: optional;
     color: white;
     font-size: 16px;
@@ -52,6 +52,14 @@ ul {
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   margin-bottom: 16px;
+}
+
+
+.display-1 {
+  color: #fff;
+  font-size: 70px;
+  line-height: 140%;
+  font-weight: 500;
 }
 
 .display-2 {

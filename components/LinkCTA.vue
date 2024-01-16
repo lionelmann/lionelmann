@@ -59,16 +59,22 @@ a {
 }
 .heading-h3-size {
   color: #fff;
-  font-size: 24px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.417em;
+  text-transform: uppercase;
 }
 
 .link-underline-wrapper {
-  background-color: #5d6c83;
-  margin-top: 6px;
+  background-color: rgb(65 190 117);
+  margin-top: 4px;
 }
 .link-underline {
-  min-height: 3px;
+  min-height: 2px;
+}
+
+.icon {
+  margin: 2px 0 0 2px;
+  vertical-align: top;
 }
 </style>

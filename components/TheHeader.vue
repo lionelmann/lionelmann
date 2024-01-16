@@ -1,12 +1,14 @@
 <template>
   <header class="container-default w-container">
-    <div class="logo">
-      <NuxtLink to="/" class="header-logo-link">
-        Lionel Mann Studio
+    <NuxtLink to="/">
+      <div class="display-5">
+        Lionel
+        <div class="mann">Mann</div>
+        <div class="studio">Studio</div>
         <!--<img src="/logoipsum-211.svg" alt="Lionel Mann" class="header-logo" />-->
-      </NuxtLink>
-    </div>
-    <Menu />
+      </div>
+    </NuxtLink>
+    <Menu :header="true" />
   </header>
 </template>
 
@@ -33,9 +35,33 @@ header {
   transition: transform 300ms ease, color 300ms ease;
   transform-style: preserve-3d;
   z-index: 2;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 132px;
 }
 
 .header-logo-link:hover {
   transform: scale3d(1.06, 1.06, 1.01);
+}
+
+.display-5 {
+  text-transform: uppercase;
+  line-height: 110%;
+  font-size: 1.1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mann {
+  letter-spacing: 0.14rem;
+}
+
+.studio {
+  font-size: 17px;
+  opacity: 0.6;
+  font-weight: 300;
 }
 </style>

@@ -1,5 +1,4 @@
 <template>
-  <TheHeader />
   <TheHero />
 
   <div class="container-default w-container">
@@ -16,7 +15,7 @@
     </div>
 
     <Divider top="96px" bottom="96px" />
-    <div><h1 class="display-2">Principles to build a better web</h1></div>
+    <div><h1 class="display-2">Principles in building a better web</h1></div>
     <Divider top="96px" bottom="96px" />
 
     <div class="grid-testimonials">
@@ -41,7 +40,6 @@
       />
     </div>
   </div>
-  <TheFooter />
 </template>
 
 <script setup>

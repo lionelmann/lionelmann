@@ -2,19 +2,20 @@
 export default defineNuxtConfig({
   modules: ['nuxt-swiper','@nuxtjs/color-mode','@nuxt/content','nuxt-icon',['@nuxtjs/google-fonts', {
     families: {
-      'Space+Grotesk': true,
+      'Ubuntu': true,
       preload: true,
       prefetch: true,
       preconnect: true,
     },
-    'Lora': true,
+    'Source Sans Pro': true,
       preload: true,
       prefetch: true,
       preconnect: true,
+    
 
   }]],
   content: {
-    documentDriven: true
+    documentDriven: false
   },
   css: [
     "~/assets/_base.scss",

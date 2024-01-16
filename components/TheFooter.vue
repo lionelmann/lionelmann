@@ -71,6 +71,6 @@ a {
 .display-5 {
   text-transform: uppercase;
   line-height: 110%;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 </style>
