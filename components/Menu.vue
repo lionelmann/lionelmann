@@ -19,7 +19,7 @@
           transition: 'opacity 300ms ease',
         }"
       >
-        <NuxtLink to="/">How I Work</NuxtLink>
+        <NuxtLink to="/how-i-work">How I Work</NuxtLink>
       </li>
 
       <li
@@ -61,8 +61,7 @@
           transition: 'opacity 300ms ease',
         }"
       >
-        <NuxtLink to="/case-studies">Ethics</NuxtLink>
-        <!--<NuxtLink to="/case-studies">Case Studies</NuxtLink>-->
+        <NuxtLink to="/ethics">Ethics</NuxtLink>
       </li>
       <li
         @mouseover="
@@ -82,25 +81,16 @@
           transition: 'opacity 300ms ease',
         }"
       >
-        <NuxtLink to="/case-studies">Book a Call</NuxtLink>
+        <a href="https://calendly.com/lionelmann/one-on-one" target="_blank"
+          >Book a Call</a
+        >
       </li>
-      <!--<li>
-        <h1>Color mode: {{ $colorMode.value }}</h1>
-        <select v-model="$colorMode.preference">
-          <option value="system">System</option>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-          <option value="sepia">Sepia</option>
-        </select>
-      </li>-->
     </ul>
   </nav>
 </template>
 
 <script setup>
 const props = defineProps(["header"]);
-
-const colorMode = useColorMode();
 const hoverHome = ref(false);
 const hoverAbout = ref(false);
 const hoverCaseStudies = ref(false);

@@ -15,7 +15,7 @@
     </div>
 
     <Divider top="96px" bottom="96px" />
-    <div><h1 class="display-2">Principles in building a better web</h1></div>
+    <Principles />
     <Divider top="96px" bottom="96px" />
 
     <div class="grid-testimonials">
@@ -27,9 +27,7 @@
     </div>
 
     <Divider top="96px" bottom="96px" />
-
     <About />
-
     <Divider top="96px" bottom="96px" />
 
     <div class="grid-testimonials">
@@ -52,9 +50,5 @@ import testimonials from "~/assets/json/testimonials.json";
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 40px;
   margin: 48px auto;
-}
-
-.display-2 {
-  font: normal 400 72px/110% Lora;
 }
 </style>

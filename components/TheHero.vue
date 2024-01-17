@@ -2,8 +2,8 @@
   <section class="container-default w-container">
     <p class="meta">Need help with your online goals?</p>
     <h1 class="display-2">
-      Hi, I help organisations, companies, and entrepreneurs harmonize their
-      business objectives with a positive and memorable digital experience.
+      Hi, I help organisations, companies, and entrepreneurs harmonise their
+      business objectives with positive and memorable digital experiences.
     </h1>
     <LinkCTA
       text="Book a Call"

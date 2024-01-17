@@ -8,7 +8,7 @@
               <span class="color-accent-1">/</span> Clients
             </div>-->
             <h2 class="display-3">
-              Organizations, companies & founders I've collaborated with
+              Organisations, companies & founders I've collaborated with
             </h2>
           </div>
         </div>

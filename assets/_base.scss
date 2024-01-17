@@ -57,9 +57,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .display-1 {
   color: #fff;
-  font-size: 70px;
-  line-height: 140%;
+  font-size: 115px;
+  line-height: 95%;
   font-weight: 500;
+  font-family: 'Lora'
 }
 
 .display-2 {
@@ -130,14 +131,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .color-accent-1 {
-  color: #075fe4;
-  font-size: 18px;
+  color: rgb(65 190 117);
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 3px;
   
   
 }
 
 .subtitle {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   color: #fff;
   font-size: 20px;
   line-height: 1.1em;
@@ -148,8 +151,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .details-slash-divider {
   margin: 3.5px 10px 0 10px;
-  color: #075fe4;
-  line-height: 1.111em;
+  color: rgb(65 190 117);
+  line-height: 1em;
   font-weight: 700;
 }
 
@@ -157,9 +160,6 @@ img {
   max-width: 100%;
 }
 
-/*section {
-  padding-top: 240px;
-}*/
 
 .center {
   text-align: center;

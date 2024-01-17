@@ -1,38 +1,32 @@
 <template>
-  <section>
-    <div class="container-default w-container">
-      <div class="grid-2-columns">
-        <div>
-          <div class="subtitle">
-            <span class="color-accent-1">/</span> My Education
-          </div>
-          <h2 class="display-3">Past education, credentials & courses</h2>
-        </div>
-        <div class="inner-container">
-          <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla</p>
-        </div>
+  <div>
+    <div class="grid-2-columns">
+      <div>
+        <div class="subtitle">My Education</div>
+        <h2 class="display-3">Past education, credentials & courses</h2>
       </div>
-      <Divider />
-      <div class="grid-2-columns gap-0">
-        <div
-          v-for="item in educationItems"
-          :key="item.id"
-          :class="item.gridClass"
-        >
-          <div class="flex">
-            <div class="text-uppercase">{{ item.school }}</div>
-            <div class="details-slash-divider">/</div>
-            <div class="text-uppercase">{{ item.date }}</div>
-          </div>
-          <h5 class="display-5" v-html="item.title"></h5>
-          <p>{{ item.description }}</p>
-          <template v-if="item.notes">
-            <LinkCTA text="Course Notes" link="https://google.ca" size="18px" />
-          </template>
+      <LinkCTA text="Email Me" link="mailto:lionelmann@gmail.com" />
+    </div>
+    <Divider />
+    <div class="grid-2-columns gap-0">
+      <div
+        v-for="item in educationItems"
+        :key="item.id"
+        :class="item.gridClass"
+      >
+        <div class="flex">
+          <div class="text-uppercase">{{ item.school }}</div>
+          <div class="details-slash-divider">/</div>
+          <div class="text-uppercase">{{ item.date }}</div>
         </div>
+        <h5 class="display-5" v-html="item.title"></h5>
+        <p>{{ item.description }}</p>
+        <template v-if="item.notes">
+          <LinkCTA text="Course Notes" link="https://google.ca" size="18px" />
+        </template>
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup>
@@ -74,10 +68,6 @@ const educationItems = [
 </script>
 
 <style lang="scss" scoped>
-section {
-  padding: 240px 0px;
-}
-
 .inner-container {
   max-width: 456px;
   justify-self: end;
@@ -96,19 +86,19 @@ section {
 
 .education-grid-top-left {
   padding: 0px 66px 66px 0px;
-  border-right: 1px solid #5d6c83;
-  border-bottom: 1px solid #5d6c83;
+  border-right: 1px solid #3d4757;
+  border-bottom: 1px solid #3d4757;
 }
 
 @media (max-width: 768px) {
   .education-grid-top-left {
-    border-right: 0px solid #5d6c83;
-    border-bottom: 1px solid #5d6c83;
+    border-right: 0px solid #3d4757;
+    border-bottom: 1px solid #3d4757;
   }
 }
 .education-grid-top-right {
   padding: 0px 0px 66px 66px;
-  border-bottom: 1px solid #5d6c83;
+  border-bottom: 1px solid #3d4757;
 }
 
 @media (max-width: 768px) {
@@ -119,13 +109,13 @@ section {
 
 .education-grid-bottom-left {
   padding: 66px 66px 0px 0px;
-  border-right: 1px solid #5d6c83;
+  border-right: 1px solid #3d4757;
 }
 
 @media (max-width: 768px) {
   .education-grid-bottom-left {
     padding: 66px 0px 66px 0px;
-    border-right: 0px solid #5d6c83;
+    border-right: 0px solid #3d4757;
   }
 }
 .education-grid-bottom-right {
@@ -135,7 +125,7 @@ section {
 @media (max-width: 768px) {
   .education-grid-bottom-right {
     padding: 66px 0px 66px 0px;
-    border-top: 1px solid #5d6c83;
+    border-top: 1px solid #3d4757;
   }
 }
 
