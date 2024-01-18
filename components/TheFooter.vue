@@ -1,11 +1,10 @@
 <template>
   <footer>
     <Divider top="96px" bottom="48px" />
-    <div class="container-default w-container">
+    <section>
       <Logo />
-    </div>
-
-    <TheCopyright />
+      <TheCopyright />
+    </section>
   </footer>
 </template>
 

@@ -1,8 +1,10 @@
 <template>
-  <header class="container-default w-container">
-    <Logo />
-    <Menu :header="true" />
-  </header>
+  <section>
+    <header>
+      <Logo />
+      <Menu :header="true" />
+    </header>
+  </section>
 </template>
 
 <script setup></script>
@@ -12,7 +14,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 36px;
-  padding-bottom: 36px;
+  padding-top: 48px;
+  padding-bottom: 100px;
 }
 </style>

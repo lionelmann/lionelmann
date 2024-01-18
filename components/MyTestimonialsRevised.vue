@@ -53,9 +53,8 @@ img {
 }
 
 .name {
-  font-size: 17px;
+  font-size: 16px;
   text-transform: uppercase;
-  font-weight: bold;
 }
 
 .role {
@@ -69,12 +68,10 @@ blockquote {
   margin: 0 0 3rem 0;
   font-size: 1.5rem;
   line-height: 140%;
-
   color: #969ba6;
 }
 
 :deep(.highlight) {
   color: white;
-  font-weight: 500;
 }
 </style>

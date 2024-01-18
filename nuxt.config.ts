@@ -1,16 +1,18 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: ['nuxt-swiper','@nuxtjs/color-mode','@nuxt/content','nuxt-icon',['@nuxtjs/google-fonts', {
-    families: {
+    families: [{
       'Ubuntu': true,
       preload: true,
       prefetch: true,
       preconnect: true,
     },
-    'Source Sans Pro': true,
+    {
+    'Lora': true,
       preload: true,
       prefetch: true,
       preconnect: true,
+    }],
     
 
   }]],

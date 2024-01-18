@@ -1,73 +1,66 @@
 <template>
-  <section>
-    <div>
-      <div class="card past-clients">
-        <div class="inner-container">
-          <div class="center">
-            <!--<div class="subtitle">
-              <span class="color-accent-1">/</span> Clients
-            </div>-->
-            <h2 class="display-3">
-              Organisations, companies & founders I've collaborated with
-            </h2>
-          </div>
-        </div>
-
-        <div class="grid-5-columns logo-strip-center">
-          <img
-            style="height: 60px"
-            src="/logo-ccs.svg"
-            loading="eager"
-            alt="Google - Developer X Webflow Template"
-          />
-          <img
-            style="height: 60px"
-            src="/logo-mazda.svg"
-            loading="eager"
-            alt="Google - Developer X Webflow Template"
-          />
-          <img
-            style="height: 60px"
-            src="/logo-outpost.svg"
-            loading="eager"
-            alt="Google - Developer X Webflow Template"
-          />
-
-          <img
-            style="height: 60px"
-            src="/logo-era.svg"
-            loading="eager"
-            alt="Google - Developer X Webflow Template"
-          />
-
-          <img
-            style="height: 60px"
-            src="/logo-revive.svg"
-            loading="eager"
-            alt="Google - Developer X Webflow Template"
-          />
-          <img
-            style="filter: grayscale(100%); height: 60px"
-            src="/logo-bunbury.png"
-            loading="eager"
-            alt="Google - Developer X Webflow Template"
-          />
-          <img
-            style="filter: grayscale(100%)"
-            src="/logo-solarpanda.png"
-            loading="eager"
-            alt="Google - Developer X Webflow Template"
-          />
-          <img
-            style="filter: grayscale(100%); height: 60px"
-            src="/logo-nq.png"
-            loading="eager"
-            alt="Google - Developer X Webflow Template"
-          />
-        </div>
+  <div class="card past-clients">
+    <div class="inner-container">
+      <div class="center">
+        <h2 class="display-3">
+          Organisations, companies & founders I've collaborated with
+        </h2>
       </div>
     </div>
-  </section>
+
+    <div class="grid-5-columns logo-strip-center">
+      <img
+        style="height: 60px"
+        src="/logo-ccs.svg"
+        loading="eager"
+        alt="Google - Developer X Webflow Template"
+      />
+      <img
+        style="height: 60px"
+        src="/logo-mazda.svg"
+        loading="eager"
+        alt="Google - Developer X Webflow Template"
+      />
+      <img
+        style="height: 60px"
+        src="/logo-outpost.svg"
+        loading="eager"
+        alt="Google - Developer X Webflow Template"
+      />
+
+      <img
+        style="height: 60px"
+        src="/logo-era.svg"
+        loading="eager"
+        alt="Google - Developer X Webflow Template"
+      />
+
+      <img
+        style="height: 60px"
+        src="/logo-revive.svg"
+        loading="eager"
+        alt="Google - Developer X Webflow Template"
+      />
+      <img
+        style="filter: grayscale(100%); height: 60px"
+        src="/logo-bunbury.png"
+        loading="eager"
+        alt="Google - Developer X Webflow Template"
+      />
+      <img
+        style="filter: grayscale(100%)"
+        src="/logo-solarpanda.png"
+        loading="eager"
+        alt="Google - Developer X Webflow Template"
+      />
+      <img
+        style="filter: grayscale(100%); height: 60px"
+        src="/logo-nq.png"
+        loading="eager"
+        alt="Google - Developer X Webflow Template"
+      />
+    </div>
+  </div>
 </template>
 
 <script setup></script>

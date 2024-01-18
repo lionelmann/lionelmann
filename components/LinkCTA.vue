@@ -59,8 +59,7 @@ a {
 }
 .heading-h3-size {
   color: #fff;
-  font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.417em;
   text-transform: uppercase;
 }

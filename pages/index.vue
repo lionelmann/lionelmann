@@ -1,7 +1,7 @@
 <template>
-  <TheHero />
+  <section>
+    <TheHero />
 
-  <div class="container-default w-container">
     <Divider top="96px" bottom="96px" />
     <MyClients />
     <Divider top="96px" bottom="96px" />
@@ -37,7 +37,7 @@
         :testimonial="testimonial"
       />
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>

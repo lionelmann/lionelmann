@@ -1,47 +1,45 @@
 <template>
-  <section>
-    <div class="grid-2-columns">
-      <div>
-        <div class="subtitle">My Experience</div>
-        <h2 class="display-3">
-          I<span class="color-accent-1">/</span>ve work<span
-            class="color-accent-1"
-            >/</span
-          >ed for some amazing companies & organisations
-        </h2>
-      </div>
-      <LinkCTA text="Email Me" link="mailto:lionelmann@gmail.com" />
+  <div class="grid-2-columns">
+    <div>
+      <div class="subtitle">My Experience</div>
+      <h2 class="display-3">
+        I<span class="color-accent-1">/</span>ve work<span
+          class="color-accent-1"
+          >/</span
+        >ed for some amazing companies & organisations
+      </h2>
     </div>
-    <Divider bottom="0px" />
-    <div
-      v-for="experience in pastExperiences"
-      :key="experience.id"
-      class="grid-3-columns past-experience"
-    >
-      <div>
-        <img
-          :src="experience.imageUrl"
-          loading="eager"
-          :alt="experience.altText"
-        />
+    <LinkCTA text="Email Me" link="mailto:lionelmann@gmail.com" />
+  </div>
+
+  <div
+    v-for="experience in pastExperiences"
+    :key="experience.id"
+    class="grid-3-columns past-experience"
+  >
+    <div>
+      <img
+        :src="experience.imageUrl"
+        loading="eager"
+        :alt="experience.altText"
+      />
+    </div>
+    <div>
+      <h3 class="display-4" v-html="experience.title"></h3>
+      <p>
+        {{ experience.description }}
+      </p>
+    </div>
+    <div class="flex">
+      <div class="text-uppercase">
+        {{ experience.startDate }}
       </div>
-      <div>
-        <h3 class="display-4" v-html="experience.title"></h3>
-        <p>
-          {{ experience.description }}
-        </p>
-      </div>
-      <div class="flex">
-        <div class="text-uppercase">
-          {{ experience.startDate }}
-        </div>
-        <div class="details-slash-divider">/</div>
-        <div class="text-uppercase">
-          {{ experience.endDate }}
-        </div>
+      <div class="details-slash-divider">/</div>
+      <div class="text-uppercase">
+        {{ experience.endDate }}
       </div>
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup>
@@ -89,6 +87,7 @@ const pastExperiences = [
 
 .grid-2-columns {
   grid-template-columns: 3fr 1fr;
+  padding-top: 80px;
 }
 
 @media (max-width: 768px) {
@@ -99,7 +98,8 @@ const pastExperiences = [
 
 .past-experience {
   padding-top: 80px;
-  padding-bottom: 72px;
+  padding-bottom: 8px;
+  margin-top: 80px;
   grid-template-columns: 2.5fr 7fr 3fr;
   border-top: 1px solid #3d4757;
 }

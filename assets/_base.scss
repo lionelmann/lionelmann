@@ -6,39 +6,31 @@
 
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #1b1f24;
-    font-family: 'Ubuntu';
-    font-display: optional;
-    color: white;
-    font-size: 16px;
-    line-height: 1.667em;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    min-height: 100%;
-    overflow-x: hidden;
-  }
-
-.container-default {
-    max-width: 1268px;
-    padding-right: 48px;
-    padding-left: 48px;
+  background-color: #1b1f24;
+  color: white;
+  font: normal 400 16px/1.6667em "Ubuntu";
+  font-display: optional;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  overflow-x: hidden;
 }
 
-.w-container {
+section {
+  max-width: 1268px;
+  padding-right: 48px;
+  padding-left: 48px;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .grid-2-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 28px;
-}
-
-@media (max-width: 768px) {
-  .grid-2-columns {
+  @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
 }
@@ -49,117 +41,61 @@ ul {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  margin-bottom: 16px;
+h1, h2, h3, h4, h5 {
+  margin: 0 0 16px 0;
 }
 
-
 .display-1 {
-  color: #fff;
-  font-size: 115px;
-  line-height: 95%;
-  font-weight: 500;
-  font-family: 'Lora'
+  font: normal 500 115px/95% 'Lora';
 }
 
 .display-2 {
-  color: #fff;
-  font-size: 56px;
-  line-height: 140%;
-  font-weight: 500;
-}
-
-@media (min-width: 769px) {
-  .display-2 {
-    font-size:50px;
-    line-height: 1.118;
-  }
+  font: normal 500 56px/140% 'Lora';
 }
 
 .display-3 {
-  color: #fff;
-  font-size: 42px;
-  line-height: 120%;
-  font-weight: 500;
-  margin-bottom: 0;
-  margin-top: 0;
-  font-family: 'Lora'
-}
-
-@media (min-width: 769px) {
-  .display-3 {
-    font-size: 52px;
-    
-  }
+  font: normal 500 42px/120% 'Lora';
 }
 
 .display-4 {
-  color: #fff;
-  font-size: 38px;
-  line-height: 1.211;
-  font-weight: 700;
-}
-
-@media (min-width: 769px) {
-  .display-4 {
-    font-size: 38px;
-   
-  }
+  font: normal 500 38px/120% 'Ubuntu';
 }
 
 .display-5 {
-  color: #fff;
-  font-size: 34px;
-  line-height: 1.441em;
-  font-weight: 700;
+  font: normal 500 34px/120% 'Ubuntu';
   margin-bottom: 8px;
   margin-top: 0;
-}
-
-@media (min-width: 769px) {
-  .display-5 {
-    font-size: 34px;
-  
-  }
 }
 
 .text-uppercase {
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  font-weight: 500;
 }
 
 .color-accent-1 {
   color: rgb(65 190 117);
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 700;
-  margin: 0 3px;
-  
-  
+  margin: 0 3px 0 4px;
 }
 
 .subtitle {
   margin-bottom: 16px;
-  color: #fff;
-  font-size: 20px;
-  line-height: 1.1em;
-  font-weight: 700;
+  font: normal 500 18px/120% 'Ubuntu';
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .details-slash-divider {
-  margin: 3.5px 10px 0 10px;
   color: rgb(65 190 117);
-  line-height: 1em;
   font-weight: 700;
+  line-height: 1em;
+  margin: 3.5px 10px 0 10px;
 }
 
 img {
   max-width: 100%;
 }
-
 
 .center {
   text-align: center;

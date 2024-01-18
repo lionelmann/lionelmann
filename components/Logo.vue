@@ -1,13 +1,11 @@
 <template>
-  <div>
-    <NuxtLink to="/">
-      <div class="display-5">
-        Lionel
-        <div class="mann">Mann</div>
-        <div class="studio">Studio</div>
-      </div>
-    </NuxtLink>
-  </div>
+  <NuxtLink to="/">
+    <div class="display-5">
+      Lionel
+      <div class="mann">Mann</div>
+      <div class="studio">Studio</div>
+    </div>
+  </NuxtLink>
 </template>
 
 <script setup></script>

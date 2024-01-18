@@ -1,13 +1,11 @@
 <template>
-  <div class="container-default w-container">
-    <div class="grid-copyright">
-      <div class="grid-item"><Menu :header="false" /></div>
-      <div class="grid-item">
-        <p>
-          © 2002 - {{ d.getFullYear() }}. Built with
-          <img src="/logo-nuxt.svg" />
-        </p>
-      </div>
+  <div class="grid-copyright">
+    <div class="grid-item"><Menu :header="false" /></div>
+    <div class="grid-item">
+      <p>
+        © 2002 - {{ d.getFullYear() }}. Built with
+        <img src="/logo-nuxt.svg" />
+      </p>
     </div>
   </div>
 </template>
