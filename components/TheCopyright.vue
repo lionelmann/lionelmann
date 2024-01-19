@@ -2,10 +2,10 @@
   <div class="grid-copyright">
     <div class="grid-item"><Menu :header="false" /></div>
     <div class="grid-item">
-      <p>
+      <div>
         © 2002 - {{ d.getFullYear() }}. Built with
         <img src="/logo-nuxt.svg" />
-      </p>
+      </div>
     </div>
   </div>
 </template>
@@ -20,27 +20,21 @@ const d = new Date();
   margin: 0 auto;
   grid-template-columns: 1fr 1fr;
   grid-gap: 8px;
-}
-
-@media (max-width: 767px) {
-  .grid-copyright {
+  margin-top: 48px;
+  @media (max-width: 767px) {
     grid-template-columns: 1fr;
   }
 }
 
 .grid-item {
   display: grid;
-  height: 96px;
   justify-items: left;
   align-items: center;
 }
 
 .grid-item:nth-last-of-type(1) {
   justify-items: right;
-}
-
-@media (max-width: 767px) {
-  .grid-item:nth-last-of-type(1) {
+  @media (max-width: 767px) {
     justify-items: left;
   }
 }

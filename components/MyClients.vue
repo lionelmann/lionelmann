@@ -1,11 +1,9 @@
 <template>
   <div class="card past-clients">
     <div class="inner-container">
-      <div class="center">
-        <h2 class="display-3">
-          Organisations, companies & founders I've collaborated with
-        </h2>
-      </div>
+      <h3 class="center">
+        Organisations, companies & founders I've collaborated with
+      </h3>
     </div>
 
     <div class="grid-5-columns logo-strip-center">
@@ -68,11 +66,11 @@
 <style lang="scss" scoped>
 .card {
   border-radius: 24px;
-  background-color: #2d343f;
+  background-color: #252b34;
 }
 
 .past-clients {
-  padding: 128px 64px 128px;
+  padding: 96px 64px;
 }
 
 .inner-container {

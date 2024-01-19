@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div><h1 class="display-2">Principles for building a better web</h1></div>
+    <div><h2 class="principles">Principles for building a better web</h2></div>
     <div class="grid-container">
       <div class="grid-item span-row">
         Item 1 (Spanning 2 rows and 2 columns)
@@ -14,8 +14,8 @@
 <script setup></script>
 
 <style lang="scss" scoped>
-.display-2 {
-  font: normal 400 72px/110% Lora;
+.principles {
+  font: normal 400 69px/110% Lora;
 }
 .grid-container {
   display: grid;
@@ -26,7 +26,7 @@
 
 .grid-item {
   padding: 40px;
-  background-color: #2d343f;
+  background-color: #252b34;
   border-radius: 32px;
 }
 

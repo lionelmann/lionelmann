@@ -1,7 +1,7 @@
 <template>
   <div class="grid-container">
     <div>
-      <h3 class="f-h3">ABOUT ME</h3>
+      <h6 class="uppercase">About Me</h6>
       <p>
         I work at an independent UX/UI designer and frontend developer working
         with organisations, startups and purpose-driven businesses. I help my
@@ -25,7 +25,7 @@
       <p>Want to discuss a project? Drop me a line: hello@lionelmann.ca</p>
     </div>
     <div>
-      <h3 class="f-h3">I can help with</h3>
+      <h6 class="uppercase">I can help with</h6>
       <ul>
         <li>Strategy</li>
         <li>Project Management</li>
@@ -53,7 +53,7 @@
 }
 
 .grid-container > div:last-child {
-  border-left: 1px solid #3d4757; /* Adjust the color and size as needed */
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
   padding-left: 62px;
   @media (max-width: 768px) {
     padding-left: 0px;
@@ -63,7 +63,7 @@
 
 p,
 li {
-  font-size: 1.3rem;
+  font-size: 1.2em;
   line-height: 150%;
   letter-spacing: -0.025em;
   color: #969ba6;
@@ -71,9 +71,5 @@ li {
 
 li {
   padding: 4px 0;
-}
-
-.f-h3 {
-  text-transform: uppercase;
 }
 </style>

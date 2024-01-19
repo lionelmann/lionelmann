@@ -17,13 +17,11 @@ body {
   overflow-x: hidden;
 }
 
-section {
+main {
   max-width: 1268px;
-  padding-right: 48px;
-  padding-left: 48px;
+  padding: 48px;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .grid-2-columns {
@@ -41,35 +39,61 @@ ul {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5 {
+::selection {
+  background: rgb(65 190 117);
+  color: black;
+}
+
+
+/*47.77
+57.32
+68.78
+82.53
+99.03
+118*/
+
+h1, h2, h3, h4, h5, h6 {
   margin: 0 0 16px 0;
 }
 
-.display-1 {
-  font: normal 500 115px/95% 'Lora';
+h1 {
+  font: normal 500 118px/95% 'Lora';
 }
 
-.display-2 {
-  font: normal 500 56px/140% 'Lora';
+h2 {
+  font: normal 500 57px/95% 'Lora';
 }
 
-.display-3 {
-  font: normal 500 42px/120% 'Lora';
+h3 {
+  font: normal 500 47px/120% 'Lora';
 }
 
-.display-4 {
-  font: normal 500 38px/120% 'Ubuntu';
+h4 {
+  font: normal 500 39px/120% 'Ubuntu';
 }
 
-.display-5 {
-  font: normal 500 34px/120% 'Ubuntu';
-  margin-bottom: 8px;
-  margin-top: 0;
+h5 {
+  font: normal 500 33px/120% 'Ubuntu';
 }
 
-.text-uppercase {
-  letter-spacing: 0.1em;
+h6 {
+  font: normal 500 23px/120% 'Ubuntu';
+}
+
+.intro {
+  font: normal 500 68px/105% 'Lora';
+}
+
+.uppercase {
   text-transform: uppercase;
+}
+
+.meta {
+  color: rgb(65 190 117);
+  font: normal 500 19px/150% Ubuntu;
+  letter-spacing: -0.02rem;
+  text-transform: uppercase;
+  margin-bottom: 16px;
 }
 
 .color-accent-1 {
@@ -79,18 +103,18 @@ h1, h2, h3, h4, h5 {
   margin: 0 3px 0 4px;
 }
 
-.subtitle {
-  margin-bottom: 16px;
-  font: normal 500 18px/120% 'Ubuntu';
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-
 .details-slash-divider {
   color: rgb(65 190 117);
   font-weight: 700;
   line-height: 1em;
   margin: 3.5px 10px 0 10px;
+}
+
+.subtitle {
+  margin-bottom: 16px;
+  font: normal 500 19px/120% 'Ubuntu';
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 img {

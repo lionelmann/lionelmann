@@ -2,7 +2,7 @@
   <div class="grid-2-columns">
     <div>
       <div class="subtitle">My Experience</div>
-      <h2 class="display-3">
+      <h2>
         I<span class="color-accent-1">/</span>ve work<span
           class="color-accent-1"
           >/</span
@@ -25,17 +25,17 @@
       />
     </div>
     <div>
-      <h3 class="display-4" v-html="experience.title"></h3>
+      <h4 v-html="experience.title"></h4>
       <p>
         {{ experience.description }}
       </p>
     </div>
     <div class="flex">
-      <div class="text-uppercase">
+      <div class="uppercase">
         {{ experience.startDate }}
       </div>
       <div class="details-slash-divider">/</div>
-      <div class="text-uppercase">
+      <div class="uppercase">
         {{ experience.endDate }}
       </div>
     </div>
@@ -87,7 +87,6 @@ const pastExperiences = [
 
 .grid-2-columns {
   grid-template-columns: 3fr 1fr;
-  padding-top: 80px;
 }
 
 @media (max-width: 768px) {
@@ -101,7 +100,7 @@ const pastExperiences = [
   padding-bottom: 8px;
   margin-top: 80px;
   grid-template-columns: 2.5fr 7fr 3fr;
-  border-top: 1px solid #3d4757;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 768px) {

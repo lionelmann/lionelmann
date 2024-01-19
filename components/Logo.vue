@@ -1,6 +1,6 @@
 <template>
   <NuxtLink to="/">
-    <div class="display-5">
+    <div class="f-logo">
       Lionel
       <div class="mann">Mann</div>
       <div class="studio">Studio</div>
@@ -11,10 +11,10 @@
 <script setup></script>
 
 <style lang="scss" scoped>
-.display-5 {
+.f-logo {
+  font-size: 19px;
   text-transform: uppercase;
-  line-height: 110%;
-  font-size: 1.1rem;
+  line-height: 100%;
 }
 
 .mann {
@@ -22,16 +22,16 @@
 }
 
 .studio {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 300;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 a {
   color: white;
   text-decoration: none;
-}
-a:hover {
-  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
 }
 </style>

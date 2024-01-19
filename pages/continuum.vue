@@ -1,13 +1,25 @@
 <template>
-  <section>
-    <p class="meta">
+  <div>
+    <div class="meta">
       Team-oriented, development lead with 10+ years experience
-    </p>
-    <h1 class="display-1">The Continuum</h1>
+    </div>
+    <h1>The Continuum</h1>
+
+    <Divider top="80px" bottom="96px" />
+
+    <div class="grid-testimonials">
+      <MyTestimonialsRevised
+        v-for="(testimonial, index) in testimonials.slice(6, 8)"
+        :key="index"
+        :testimonial="testimonial"
+      />
+    </div>
+
+    <Divider top="96px" bottom="96px" />
 
     <MyExperience />
 
-    <Divider top="80px" bottom="96px" />
+    <Divider top="96px" bottom="96px" />
 
     <div class="grid-testimonials">
       <MyTestimonialsRevised
@@ -30,7 +42,7 @@
         :testimonial="testimonial"
       />
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup>
@@ -38,13 +50,6 @@ import testimonials from "~/assets/json/testimonials.json";
 </script>
 
 <style scoped lang="scss">
-.grid-testimonials {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  gap: 40px;
-  margin: 48px auto;
-}
-
 .meta {
   color: rgb(65 190 117);
   font: normal 500 18px/150% Ubuntu;

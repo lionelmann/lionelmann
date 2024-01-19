@@ -1,18 +1,18 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: ['nuxt-swiper','@nuxtjs/color-mode','@nuxt/content','nuxt-icon',['@nuxtjs/google-fonts', {
-    families: [{
+    families: {
       'Ubuntu': true,
       preload: true,
       prefetch: true,
       preconnect: true,
     },
-    {
     'Lora': true,
       preload: true,
       prefetch: true,
       preconnect: true,
-    }],
+    
+  
     
 
   }]],
@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     documentDriven: false
   },
   css: [
-    "~/assets/_base.scss",
+    "~/assets/_base.scss", "~/assets/_layout.scss",
   ],
   app: {
     head: {

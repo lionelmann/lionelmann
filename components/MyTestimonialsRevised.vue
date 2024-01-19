@@ -1,9 +1,9 @@
 <template>
   <div class="card-container">
     <blockquote v-html="testimonial.quote"></blockquote>
-    <div class="meta">
+    <div class="author">
       <img :src="testimonial.image" alt="" />
-      <div class="meta-item">
+      <div class="author-inner">
         <p class="name">
           {{ testimonial.name }}
         </p>
@@ -22,24 +22,24 @@ const props = defineProps(["testimonial", "pick"]);
 .card-container {
   width: 100%;
   padding: 40px;
-  background-color: #2d343f;
+  background-color: #252b34;
   border-radius: 32px;
   display: flex;
   flex-direction: column;
 }
 
-.meta {
+.author {
   display: flex;
   margin-top: auto;
   align-self: flex-start;
   align-items: center;
 }
 
-.meta-item {
+.author-inner {
   margin-left: 24px;
 }
 
-.meta-item p {
+.author-inner p {
   margin: 0;
   line-height: 1.4rem;
 }
@@ -66,8 +66,8 @@ img {
 
 blockquote {
   margin: 0 0 3rem 0;
-  font-size: 1.5rem;
-  line-height: 140%;
+  font-size: 1.44em;
+  line-height: 150%;
   color: #969ba6;
 }
 

@@ -15,6 +15,6 @@ const props = defineProps({
   margin-bottom: 96px;
   height: 1px;
   opacity: 1;
-  background-color: #3d4757;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 </style>

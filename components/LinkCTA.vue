@@ -49,6 +49,7 @@ a {
   white-space: nowrap;
   justify-self: end;
   align-self: end;
+  margin-right: 32px;
 }
 
 @media (max-width: 767px) {

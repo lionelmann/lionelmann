@@ -3,7 +3,7 @@
     <div class="grid-2-columns">
       <div>
         <div class="subtitle">My Education</div>
-        <h2 class="display-3">Past education, credentials & courses</h2>
+        <h2>Past education, credentials & courses</h2>
       </div>
       <LinkCTA text="Email Me" link="mailto:lionelmann@gmail.com" />
     </div>
@@ -15,11 +15,11 @@
         :class="item.gridClass"
       >
         <div class="flex">
-          <div class="text-uppercase">{{ item.school }}</div>
+          <div class="uppercase">{{ item.school }}</div>
           <div class="details-slash-divider">/</div>
-          <div class="text-uppercase">{{ item.date }}</div>
+          <div class="uppercase">{{ item.date }}</div>
         </div>
-        <h5 class="display-5" v-html="item.title"></h5>
+        <h5 v-html="item.title"></h5>
         <p>{{ item.description }}</p>
         <template v-if="item.notes">
           <LinkCTA text="Course Notes" link="https://google.ca" size="18px" />
@@ -86,19 +86,19 @@ const educationItems = [
 
 .education-grid-top-left {
   padding: 0px 66px 66px 0px;
-  border-right: 1px solid #3d4757;
-  border-bottom: 1px solid #3d4757;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 768px) {
   .education-grid-top-left {
-    border-right: 0px solid #3d4757;
-    border-bottom: 1px solid #3d4757;
+    border-right: 0px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
 .education-grid-top-right {
   padding: 0px 0px 66px 66px;
-  border-bottom: 1px solid #3d4757;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 768px) {
@@ -109,13 +109,13 @@ const educationItems = [
 
 .education-grid-bottom-left {
   padding: 66px 66px 0px 0px;
-  border-right: 1px solid #3d4757;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @media (max-width: 768px) {
   .education-grid-bottom-left {
     padding: 66px 0px 66px 0px;
-    border-right: 0px solid #3d4757;
+    border-right: 0px solid rgba(255, 255, 255, 0.1);
   }
 }
 .education-grid-bottom-right {
@@ -125,7 +125,7 @@ const educationItems = [
 @media (max-width: 768px) {
   .education-grid-bottom-right {
     padding: 66px 0px 66px 0px;
-    border-top: 1px solid #3d4757;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
   }
 }
 

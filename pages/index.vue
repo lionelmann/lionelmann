@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <div>
     <TheHero />
 
     <Divider top="96px" bottom="96px" />
@@ -37,7 +37,7 @@
         :testimonial="testimonial"
       />
     </div>
-  </section>
+  </div>
 </template>
 
 <script setup>

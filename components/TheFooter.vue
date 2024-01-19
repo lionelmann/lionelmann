@@ -1,17 +1,7 @@
 <template>
   <footer>
-    <Divider top="96px" bottom="48px" />
-    <section>
-      <Logo />
-      <TheCopyright />
-    </section>
+    <Divider top="96px" bottom="56px" />
+    <Logo />
+    <TheCopyright />
   </footer>
 </template>
-
-<script setup></script>
-
-<style lang="scss" scoped>
-footer {
-  background-color: transparent;
-}
-</style>
