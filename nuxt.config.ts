@@ -9,9 +9,7 @@ export default defineNuxtConfig({
       preconnect: true,
     }
   }]],
-  content: {
-    documentDriven: false
-  },
+  
   css: [
     "~/assets/_base.scss", "~/assets/_layout.scss",
   ],

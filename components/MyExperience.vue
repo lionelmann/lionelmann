@@ -73,6 +73,14 @@ const pastExperiences = [
 </script>
 
 <style lang="scss" scoped>
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
 .grid-3-columns {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

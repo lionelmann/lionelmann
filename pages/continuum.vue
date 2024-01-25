@@ -9,7 +9,7 @@
 
     <div class="grid-testimonials">
       <MyTestimonials
-        v-for="(testimonial, index) in testimonials.slice(6, 8)"
+        v-for="(testimonial, index) in getCherryPickedTestimonials([8, 9])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -23,7 +23,7 @@
 
     <div class="grid-testimonials">
       <MyTestimonials
-        v-for="(testimonial, index) in testimonials.slice(0, 2)"
+        v-for="(testimonial, index) in getCherryPickedTestimonials([1, 2])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -37,7 +37,9 @@
 
     <div class="grid-testimonials">
       <MyTestimonials
-        v-for="(testimonial, index) in testimonials.slice(0, 4)"
+        v-for="(testimonial, index) in getCherryPickedTestimonials([
+          5, 6, 7, 8,
+        ])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -46,7 +48,7 @@
 </template>
 
 <script setup>
-import testimonials from "~/assets/json/testimonials.json";
+import { getCherryPickedTestimonials } from "~/utils/testimonials";
 </script>
 
 <style scoped lang="scss"></style>

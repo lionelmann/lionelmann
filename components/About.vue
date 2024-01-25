@@ -15,9 +15,9 @@
         comprehensive agency due to budgetary or logistical constraints.
       </p>
       <p>
-        My commitment extends to crafting personalized, performant apps and
-        websites that prioritize optimization, web standards, mobile
-        responsiveness, and environmental sustainability as core tenets.
+        My commitment extends to crafting bespoke, performant apps and websites
+        that prioritize optimization, web standards, mobile responsiveness, and
+        environmental sustainability as core tenets.
       </p>
       <p>
         I offer expertise in strategy, UX design, development, user experience,

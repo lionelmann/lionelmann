@@ -10,9 +10,7 @@
         My aim is to operate ethically and in a way that serves as a positive
         force in the community.
       </p>
-      <p>
-        This is constantly being evaluated and is an ongoing work in progress.
-      </p>
+      <p>This is constantly being evaluated and is a work in progress.</p>
 
       <h6>What I've Done</h6>
       <ul>

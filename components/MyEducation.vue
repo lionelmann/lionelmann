@@ -68,6 +68,9 @@ const educationItems = [
 </script>
 
 <style lang="scss" scoped>
+.uppercase {
+  text-transform: uppercase;
+}
 .grid-2-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
