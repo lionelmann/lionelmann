@@ -30,8 +30,10 @@
 a {
   color: white;
   text-decoration: none;
+  transition: transform 0.3s;
   &:hover {
     text-decoration: none;
+    transform: scale(1.1);
   }
 }
 </style>

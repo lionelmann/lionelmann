@@ -8,7 +8,7 @@
     <Divider top="80px" bottom="96px" />
 
     <div class="grid-testimonials">
-      <MyTestimonialsRevised
+      <MyTestimonials
         v-for="(testimonial, index) in testimonials.slice(6, 8)"
         :key="index"
         :testimonial="testimonial"
@@ -22,7 +22,7 @@
     <Divider top="96px" bottom="96px" />
 
     <div class="grid-testimonials">
-      <MyTestimonialsRevised
+      <MyTestimonials
         v-for="(testimonial, index) in testimonials.slice(0, 2)"
         :key="index"
         :testimonial="testimonial"
@@ -36,7 +36,7 @@
     <Divider top="96px" bottom="96px" />
 
     <div class="grid-testimonials">
-      <MyTestimonialsRevised
+      <MyTestimonials
         v-for="(testimonial, index) in testimonials.slice(0, 4)"
         :key="index"
         :testimonial="testimonial"
@@ -49,11 +49,4 @@
 import testimonials from "~/assets/json/testimonials.json";
 </script>
 
-<style scoped lang="scss">
-.meta {
-  color: rgb(65 190 117);
-  font: normal 500 18px/150% Ubuntu;
-  letter-spacing: -0.02rem;
-  text-transform: uppercase;
-}
-</style>
+<style scoped lang="scss"></style>

@@ -82,8 +82,12 @@
         }"
       >
         <a href="https://calendly.com/lionelmann/one-on-one" target="_blank"
-          >Book a Call</a
-        >
+          >Book My Brain
+          <Icon
+            name="heroicons:arrow-top-right-on-square"
+            color="white"
+            style="font-size: 19px; vertical-align: top; margin-top: 2px"
+        /></a>
       </li>
     </ul>
   </nav>

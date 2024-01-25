@@ -68,6 +68,15 @@ const educationItems = [
 </script>
 
 <style lang="scss" scoped>
+.grid-2-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
 .inner-container {
   max-width: 456px;
   justify-self: end;

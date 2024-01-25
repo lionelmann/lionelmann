@@ -8,10 +8,9 @@
     <div class="heading-h3-size" :style="{ fontSize: size }">
       {{ text }}
       <Icon
-        name="heroicons:arrow-right"
-        color="white"
+        name="heroicons:arrow-top-right-on-square"
         :style="{
-          transform: hover ? 'translate3d(4px, 0, 0)' : 'translate3d(0, 0, 0)',
+          transform: hover ? 'translate3d(3px, 0, 0)' : 'translate3d(0, 0, 0)',
           transition: 'transform 300ms ease',
         }"
       />
@@ -42,6 +41,7 @@ const props = defineProps({
 <style lang="scss" scoped>
 a {
   text-decoration: none;
+  color: white;
 }
 .link-wrapper {
   display: inline-block;
@@ -49,7 +49,6 @@ a {
   white-space: nowrap;
   justify-self: end;
   align-self: end;
-  margin-right: 32px;
 }
 
 @media (max-width: 767px) {
@@ -66,15 +65,15 @@ a {
 }
 
 .link-underline-wrapper {
-  background-color: rgb(65 190 117);
-  margin-top: 4px;
+  background-color: rgba(65, 190, 117, 1);
+  margin-top: 2px;
 }
 .link-underline {
   min-height: 2px;
 }
 
 .icon {
-  margin: 2px 0 0 2px;
+  margin: 2px 0 0 0px;
   vertical-align: top;
 }
 </style>

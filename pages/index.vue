@@ -3,11 +3,11 @@
     <TheHero />
 
     <Divider top="96px" bottom="96px" />
-    <MyClients />
+    <MyClients data-aos="fade-up" />
     <Divider top="96px" bottom="96px" />
 
-    <div class="grid-testimonials">
-      <MyTestimonialsRevised
+    <div class="grid-testimonials" data-aos="fade-up">
+      <MyTestimonials
         v-for="(testimonial, index) in testimonials.slice(0, 2)"
         :key="index"
         :testimonial="testimonial"
@@ -15,11 +15,11 @@
     </div>
 
     <Divider top="96px" bottom="96px" />
-    <Principles />
+    <Principles data-aos="fade-up" />
     <Divider top="96px" bottom="96px" />
 
-    <div class="grid-testimonials">
-      <MyTestimonialsRevised
+    <div class="grid-testimonials" data-aos="fade-up">
+      <MyTestimonials
         v-for="(testimonial, index) in testimonials.slice(3, 7)"
         :key="index"
         :testimonial="testimonial"
@@ -27,11 +27,11 @@
     </div>
 
     <Divider top="96px" bottom="96px" />
-    <About />
+    <About data-aos="fade-up" />
     <Divider top="96px" bottom="96px" />
 
-    <div class="grid-testimonials">
-      <MyTestimonialsRevised
+    <div class="grid-testimonials" data-aos="fade-up">
+      <MyTestimonials
         v-for="(testimonial, index) in testimonials.slice(8, 10)"
         :key="index"
         :testimonial="testimonial"

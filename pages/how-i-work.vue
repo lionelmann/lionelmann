@@ -5,35 +5,36 @@
 
     <Divider top="80px" bottom="96px" />
     <article>
-      <h6 class="uppercase">Background</h6>
+      <h6>Background</h6>
       <p>
-        I am a designer who codes and typically takes on end-to-end design and
-        development projects.
+        I am a developer who knows design practices such as typography, colours,
+        layout and knows good design when I see it, but am not a "designer" per
+        say. and typically takes on end-to-end design and development projects.
       </p>
 
       <p>
         As standard, the websites I produce are bespoke and tailored to you.
-        They’re fast, clear, inclusive, privacy-respecting and low carbon by
+        They're fast, clear, inclusive, privacy-respecting and low carbon by
         default.
       </p>
       <p>
         I can help with strategy, UX and UI design, development, user experience
-        and brand refinement. Over the years, I’ve developed an extensive
+        and brand refinement. Over the years, I've developed an extensive
         network of expert partners who can provide additional services.
       </p>
 
-      <h6 class="uppercase">Working Together</h6>
+      <h6>Working Together</h6>
       <p>
-        Most of my work is project-based, but I’m available for design and
-        development retainers, too. Retainers are based on guaranteeing an
-        agreed number of days per month. I don’t oversell my time.
+        Most of my work is project-based, but I'm available for development
+        retainers, too. Retainers are based on guaranteeing an agreed number of
+        days per month. I don't oversell my time.
       </p>
 
       <p>
-        While we’re working on a project, I recommend we book a regular meeting
-        to help keep things moving. This is usually weekly – especially during
-        the design phase of a project – but we can agree the cadence to suit.
-        For support retainers, these meetings may be more occasional – perhaps
+        While we're working on a project, I recommend we book a regular meeting
+        to help keep things moving. This is usually weekly - especially during
+        the initial phase of a project - but we can agree the cadence to suit.
+        For support retainers, these meetings may be more occasional - perhaps
         every quarter.
       </p>
 
@@ -45,10 +46,10 @@
         to drop comments directly onto designs.
       </p>
 
-      <h6 class="uppercase">Estimates + Rates</h6>
+      <h6>Estimates + Rates</h6>
       <p>
-        Estimating projects is always a challenge. We’ll likely have a clear
-        idea of a project’s goals early in our discussions, but there are
+        Estimating projects is always a challenge. We'll likely have a clear
+        idea of a project's goals early in our discussions, but there are
         invariably unknowns and our understanding of the best solutions will
         evolve as we work.
       </p>
@@ -61,7 +62,7 @@
 
       <p>
         If a fixed quote is a requirement, I will recommend a short discovery
-        project (1–5 days). The result of this will be a fixed scope at a fixed
+        project (1-5 days). The result of this will be a fixed scope at a fixed
         cost.
       </p>
 
@@ -70,44 +71,48 @@
         worked.
       </p>
 
-      <h6 class="uppercase">Development</h6>
+      <h6>Development</h6>
       <p>
-        In many cases, I recommend using Statamic as the content management
-        system to power your site. I’m a Statamic Partner and helped redesign
-        the Statamic 3 documentation site.
+        In many cases, I recommend using WordPress as the content management
+        system to power your site.
       </p>
 
       <p>
-        We can use a different CMS if that’s a better fit for the project, and
+        We can use a different CMS if that's a better fit for the project, and
         can recommend developers where appropriate.
       </p>
 
       <p>
-        If you already have a developer, I’m happy to offer design-only services
-        and collaborate with them.
+        If you already have a designer, I'm happy to offer development-only
+        services and collaborate with them.
       </p>
 
-      <p>As a general rule, I don’t take on development-only work.</p>
-
-      <h6 class="uppercase">Collaboartion</h6>
+      <h6>Design</h6>
       <p>
-        Over the years, I’ve developed an extensive network of expert partners
+        If you already have a designer, I'm happy to offer development-only
+        services and collaborate with them.
+      </p>
+
+      <h6>Collaboartion</h6>
+      <p>
+        Over the years, I've developed an extensive network of expert partners
         who can provide additional services. Typically, this might include
         copywriters, developers and illustrators, but it depends on the project.
       </p>
 
-      <h6 class="uppercase">Let's Chat</h6>
       <p>
         If you would like to discuss a project or have any questions, feel free
         to get in touch.
       </p>
 
       <LinkCTA
-        text="Book a Call"
+        text="Book My Brain"
         link="https://calendly.com/lionelmann/one-on-one"
         target="_blank"
         size="23px"
       />
+
+      <span class="spacer"></span>
 
       <LinkCTA
         text="Email Me"
@@ -119,8 +124,8 @@
 
     <Divider top="80px" bottom="96px" />
 
-    <div class="grid-testimonials">
-      <MyTestimonialsRevised
+    <div class="grid-testimonials" data-aos="fade-up">
+      <MyTestimonials
         v-for="(testimonial, index) in testimonials.slice(0, 6)"
         :key="index"
         :testimonial="testimonial"
@@ -134,14 +139,11 @@ import testimonials from "~/assets/json/testimonials.json";
 </script>
 
 <style lang="scss" scoped>
-p {
-  color: #969ba6;
-  font-size: 23px;
-  line-height: 150%;
-  margin-bottom: 1.2em;
-}
-
 h6 {
   margin-top: 96px;
+}
+
+.spacer {
+  margin-right: 32px;
 }
 </style>

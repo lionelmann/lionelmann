@@ -28,27 +28,15 @@ const d = new Date();
 
 .grid-item {
   display: grid;
-  justify-items: left;
-  align-items: center;
+  justify-self: start;
+  align-self: center;
 }
 
 .grid-item:nth-last-of-type(1) {
-  justify-items: right;
+  justify-self: end;
   @media (max-width: 767px) {
-    justify-items: left;
+    justify-self: start;
   }
-}
-
-a {
-  transition: color 300ms ease, border-bottom 300ms ease;
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 1px solid #fff;
-}
-
-a:hover {
-  color: #8895aa;
-  border-bottom: 1px solid #8895aa;
 }
 
 img {

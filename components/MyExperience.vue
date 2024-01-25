@@ -17,13 +17,7 @@
     :key="experience.id"
     class="grid-3-columns past-experience"
   >
-    <div>
-      <img
-        :src="experience.imageUrl"
-        loading="eager"
-        :alt="experience.altText"
-      />
-    </div>
+    <img :src="experience.imageUrl" :alt="experience.altText" />
     <div>
       <h4 v-html="experience.title"></h4>
       <p>
@@ -31,13 +25,13 @@
       </p>
     </div>
     <div class="flex">
-      <div class="uppercase">
+      <time>
         {{ experience.startDate }}
-      </div>
+      </time>
       <div class="details-slash-divider">/</div>
-      <div class="uppercase">
+      <time>
         {{ experience.endDate }}
-      </div>
+      </time>
     </div>
   </div>
 </template>
@@ -118,5 +112,9 @@ const pastExperiences = [
   .flex {
     justify-content: flex-start;
   }
+}
+
+time {
+  text-transform: uppercase;
 }
 </style>
