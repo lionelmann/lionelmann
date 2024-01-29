@@ -3,21 +3,21 @@
     <h3>{{ $t("clients.headline") }}</h3>
 
     <div class="grid">
-      <img
+      <NuxtImg
         style="height: 60px"
         src="/logo-ccs.svg"
         alt="Canadian Cancer Societ Logo"
       />
-      <img style="height: 60px" src="/logo-mazda.svg" alt="Mazda Logo" />
+      <NuxtImg style="height: 60px" src="/logo-mazda.svg" alt="Mazda Logo" />
       <img
         style="height: 60px"
         src="/logo-outpost.svg"
         alt="Outpost Magazine Logo"
       />
 
-      <img style="height: 60px" src="/logo-era.svg" alt="Era Logo" />
+      <NuxtImg style="height: 60px" src="/logo-era.svg" alt="Era Logo" />
 
-      <img
+      <NuxtImg
         style="height: 60px"
         src="/logo-revive.svg"
         alt="Revive Engineering Logo"

@@ -1,6 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['nuxt-aos','@nuxtjs/color-mode','nuxt-icon',['@nuxtjs/google-fonts', {
+  modules: ['@nuxt/image','nuxt-aos','@nuxtjs/color-mode','nuxt-icon',['@nuxtjs/google-fonts', {
     families: {
       'Ubuntu': true,
       'Lora': true,
@@ -43,7 +43,7 @@ export default defineNuxtConfig({
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { hid: "description", name: "description", content: "" },
+        { hid: "description", name: "description", content: "Hi, I help people harmonise their business objectives with positive and memorable digital experiences." },
         { name: "format-detection", content: "telephone=no" },
   
         {
@@ -77,12 +77,12 @@ export default defineNuxtConfig({
         {
           hid: "twitter:title",
           name: "twitter:title",
-          content: "",
+          content: "Lionel Mann",
         },
         {
           hid: "twitter:description",
           name: "twitter:description",
-          content: "",
+          content: "Hi, I help people harmonise their business objectives with positive and memorable digital experiences.",
         },
         {
           hid: "twitter:image",

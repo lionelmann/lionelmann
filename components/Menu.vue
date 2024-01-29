@@ -65,7 +65,7 @@
       >
         <NuxtLink :to="localePath('/ethics')">{{ $t("menu.two") }}</NuxtLink>
       </li>
-      <li
+      <!--<li
         @mouseover="
           (hoverHome = true),
             (hoverAbout = true),
@@ -91,7 +91,7 @@
           color="white"
           style="font-size: 19px; vertical-align: top; margin: 2px 0 0 4px"
         />
-      </li>
+      </li>-->
 
       <li>
         <NuxtLink

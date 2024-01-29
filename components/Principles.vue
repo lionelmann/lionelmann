@@ -8,18 +8,20 @@
         <div>
           <p v-html="$t('principles.one')"></p>
         </div>
-        <img src="/noun-dataset.svg" alt="Performance Icon" />
+        <NuxtImg src="/noun-dataset.svg" alt="Performance Icon" />
       </div>
       <div class="grid-column item-1">
-        <img src="/noun-ai-ethics.svg" alt="Ethical Design Icon" />
+        <NuxtImg src="/noun-ai-ethics.svg" alt="Ethical Design Icon" />
         <div>
           <p v-html="$t('principles.two')"></p>
         </div>
-        <div></div>
       </div>
       <div class="grid-column item-2">
         <div><p v-html="$t('principles.three')"></p></div>
-        <img src="/noun-artificial-intelligence.svg" alt="Accessibility Icon" />
+        <NuxtImg
+          src="/noun-artificial-intelligence.svg"
+          alt="Accessibility Icon"
+        />
       </div>
     </div>
   </div>

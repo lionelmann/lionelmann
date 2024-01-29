@@ -23,20 +23,20 @@
       <h6>{{ $t("howWeWork.other.title") }}</h6>
       <div v-html="$t('howWeWork.other.content')"></div>
 
-      <LinkCTA
+      <!--<LinkCTA
         :text="$t('bookmybrain')"
         link="https://calendly.com/lionelmann/one-on-one"
         target="_blank"
         size="23px"
-      />
+      />-->
 
-      <span class="spacer"></span>
+      <!--<span class="spacer"></span>-->
 
       <LinkCTA
         :text="$t('email')"
         link="mailto:lionelmann@gmail.com"
         target="_blank"
-        size="23px"
+        size="19px"
       />
     </article>
 
