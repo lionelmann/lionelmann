@@ -19,7 +19,7 @@
           transition: 'opacity 300ms ease',
         }"
       >
-        <NuxtLink to="/how-i-work">How I Work</NuxtLink>
+        <NuxtLink :to="localePath('how-i-work')">{{ $t("menu.one") }}</NuxtLink>
       </li>
 
       <li
@@ -41,7 +41,9 @@
           transition: 'opacity 300ms ease',
         }"
       >
-        <NuxtLink to="/continuum">The Continuum</NuxtLink>
+        <NuxtLink :to="localePath('/continuum')">{{
+          $t("menu.four")
+        }}</NuxtLink>
       </li>
       <li
         @mouseover="
@@ -61,7 +63,7 @@
           transition: 'opacity 300ms ease',
         }"
       >
-        <NuxtLink to="/ethics">Ethics</NuxtLink>
+        <NuxtLink :to="localePath('/ethics')">{{ $t("menu.two") }}</NuxtLink>
       </li>
       <li
         @mouseover="
@@ -82,12 +84,31 @@
         }"
       >
         <a href="https://calendly.com/lionelmann/one-on-one" target="_blank"
-          >Book My Brain
-          <Icon
-            name="heroicons:arrow-top-right-on-square"
-            color="white"
-            style="font-size: 19px; vertical-align: top; margin-top: 2px"
-        /></a>
+          >{{ $t("menu.three") }}
+        </a>
+        <Icon
+          name="heroicons:rocket-launch"
+          color="white"
+          style="font-size: 19px; vertical-align: top; margin: 2px 0 0 4px"
+        />
+      </li>
+
+      <li>
+        <NuxtLink
+          class="toggle"
+          v-if="$i18n.locale !== 'en'"
+          :to="switchLocalePath('en')"
+        >
+          <Icon name="heroicons:globe-alt" /> EN
+        </NuxtLink>
+
+        <NuxtLink
+          class="toggle"
+          v-if="$i18n.locale !== 'fr'"
+          :to="switchLocalePath('fr')"
+        >
+          <Icon name="heroicons:globe-alt" /> FR
+        </NuxtLink>
       </li>
     </ul>
   </nav>
@@ -133,7 +154,10 @@ nav {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  border-bottom: 2px solid rgb(65 190 117);
+  border-bottom: 2px solid $highlight;
+  &.toggle {
+    border-bottom: none;
+  }
 }
 
 .menu li:nth-child(1) {

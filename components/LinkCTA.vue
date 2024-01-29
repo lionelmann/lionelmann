@@ -8,7 +8,7 @@
     <div class="heading-h3-size" :style="{ fontSize: size }">
       {{ text }}
       <Icon
-        name="heroicons:arrow-top-right-on-square"
+        name="heroicons:rocket-launch"
         :style="{
           transform: hover ? 'translate3d(3px, 0, 0)' : 'translate3d(0, 0, 0)',
           transition: 'transform 300ms ease',
@@ -65,7 +65,7 @@ a {
 }
 
 .link-underline-wrapper {
-  background-color: rgba(65, 190, 117, 1);
+  background-color: $highlight;
   margin-top: 2px;
 }
 .link-underline {

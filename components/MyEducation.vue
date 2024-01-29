@@ -2,70 +2,57 @@
   <div>
     <div class="grid-2-columns">
       <div>
-        <div class="subtitle">My Education</div>
-        <h2>Past education, credentials & courses</h2>
+        <div class="subtitle">{{ $t("education.tagline") }}</div>
+        <h2 v-html="$t('education.title')"></h2>
       </div>
-      <LinkCTA text="Email Me" link="mailto:lionelmann@gmail.com" />
+      <LinkCTA :text="$t('email')" link="mailto:lionelmann@gmail.com" />
     </div>
     <Divider />
+
     <div class="grid-2-columns gap-0">
-      <div
-        v-for="item in educationItems"
-        :key="item.id"
-        :class="item.gridClass"
-      >
+      <div class="education-grid-top-left">
         <div class="flex">
-          <div class="uppercase">{{ item.school }}</div>
+          <div class="uppercase">{{ $t("education.one.school") }}</div>
           <div class="details-slash-divider">/</div>
-          <div class="uppercase">{{ item.date }}</div>
+          <div class="uppercase">{{ $t("education.one.date") }}</div>
         </div>
-        <h5 v-html="item.title"></h5>
-        <p>{{ item.description }}</p>
-        <template v-if="item.notes">
-          <LinkCTA text="Course Notes" link="https://google.ca" size="18px" />
-        </template>
+        <h5 v-html="$t('education.one.title')"></h5>
+        <p>{{ $t("education.one.content") }}</p>
+      </div>
+
+      <div class="education-grid-top-right">
+        <div class="flex">
+          <div class="uppercase">{{ $t("education.two.school") }}</div>
+          <div class="details-slash-divider">/</div>
+          <div class="uppercase">{{ $t("education.two.date") }}</div>
+        </div>
+        <h5 v-html="$t('education.two.title')"></h5>
+        <p>{{ $t("education.two.content") }}</p>
+        <LinkCTA :text="$t('notes')" link="https://google.ca" size="18px" />
+      </div>
+
+      <div class="education-grid-bottom-left">
+        <div class="flex">
+          <div class="uppercase">{{ $t("education.three.school") }}</div>
+          <div class="details-slash-divider">/</div>
+          <div class="uppercase">{{ $t("education.three.date") }}</div>
+        </div>
+        <h5 v-html="$t('education.three.title')"></h5>
+      </div>
+
+      <div class="education-grid-bottom-right">
+        <div class="flex">
+          <div class="uppercase">{{ $t("education.four.school") }}</div>
+          <div class="details-slash-divider">/</div>
+          <div class="uppercase">{{ $t("education.four.date") }}</div>
+        </div>
+        <h5 v-html="$t('education.four.title')"></h5>
       </div>
     </div>
   </div>
 </template>
 
-<script setup>
-const educationItems = [
-  {
-    title: "Vue & Nuxt Courses",
-    school: "Vue Mastery",
-    date: "2018 - Ongoing",
-    description: "Building apps that can scale with Nuxt.js",
-    gridClass: "education-grid-top-left",
-    notes: false,
-  },
-  {
-    title: "Nanodegree, Data Foundations",
-    school: "Udacity",
-    date: "2018",
-    description:
-      "The Data Foundations Nanodegree is a 3-month program that teaches Data Analytics fundamentals like descriptive statistics, Excel data analysis, SQL database querying, and creating impactful visualizations in Tableau.",
-    gridClass: "education-grid-top-right",
-    notes: true,
-  },
-  {
-    title: "Webmaster Diploma, <br>Web Development & Design",
-    school: "First Interact Computer College",
-    date: "2000",
-    description: "lorem ipsum",
-    gridClass: "education-grid-bottom-left",
-    notes: false,
-  },
-  {
-    title: "Bachelor Degree (Double Major), Political Science & Sociology",
-    school: "Dalhousie University",
-    date: "1994 - 1998",
-    description: "lorem ipsum",
-    gridClass: "education-grid-bottom-right",
-    notes: false,
-  },
-];
-</script>
+<script setup></script>
 
 <style lang="scss" scoped>
 .uppercase {

@@ -1,37 +1,25 @@
 <template>
   <div>
-    <div><h2>Principles for building a better web</h2></div>
+    <div>
+      <h2>{{ $t("principles.headline") }}</h2>
+    </div>
     <div class="grid-container">
       <div class="grid-row span-row">
         <div>
-          <p>
-            Design, content and development should work together. When they do,
-            the result is clearer, faster and more accessible. It’s better
-            all-around.
-          </p>
+          <p v-html="$t('principles.one')"></p>
         </div>
-        <img src="/noun-arrow-2.svg" class="arrow-2" />
+        <img src="/noun-dataset.svg" alt="Performance Icon" />
       </div>
-      <div class="grid-column">
-        <img src="/noun-arrow-1.svg" class="arrow-1" />
+      <div class="grid-column item-1">
+        <img src="/noun-ai-ethics.svg" alt="Ethical Design Icon" />
         <div>
-          <p>
-            <span class="highlight"
-              >Websites should be low-carbon and privacy-respecting</span
-            >. If our work is environmentally-friendly, but we send user data to
-            companies with poor privacy practices, we have no credibility.
-          </p>
+          <p v-html="$t('principles.two')"></p>
         </div>
+        <div></div>
       </div>
-      <div class="grid-column">
-        <div>
-          <p>
-            User experience and organisational goals go hand-in-hand. Both sets
-            of needs can work together, promoting each other for a result that
-            works for everyone.
-          </p>
-        </div>
-        <img src="/noun-arrow-3.svg" class="arrow-3" />
+      <div class="grid-column item-2">
+        <div><p v-html="$t('principles.three')"></p></div>
+        <img src="/noun-artificial-intelligence.svg" alt="Accessibility Icon" />
       </div>
     </div>
   </div>
@@ -45,63 +33,62 @@ h2 {
   max-width: 80%;
 }
 p {
-  font: normal 400 23px/150% Lora;
+  font: normal 400 23px/150% "Ubuntu";
 }
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 40px;
   margin-top: 40px;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .grid-column,
 .grid-row {
   display: grid;
-  position: relative;
   width: 100%;
   padding: 40px;
   background-color: #252b34;
   border-radius: 32px;
-  overflow: hidden;
+  gap: 40px;
 }
 
-.grid-column {
-  grid-template-columns: 1fr 1fr;
+.item-1 {
+  grid-template-columns: 1fr 1.7fr;
+}
+
+.item-2 {
+  grid-template-columns: 1.7fr 1fr;
 }
 
 .grid-row {
   grid-template-columns: 1fr;
+  @media (max-width: 768px) {
+    grid-template-columns: 1.7fr 1fr;
+  }
 }
 
 .span-row {
   grid-row: span 2;
 }
 
-.arrow-1 {
-  max-width: 270px;
+img {
   opacity: 0.5;
-  position: absolute;
-  right: -5px;
-  top: -20px;
 }
 
-.arrow-2 {
-  width: 100%;
-  opacity: 0.5;
-  position: absolute;
-  left: -20px;
-  bottom: -150px;
-}
-
-.arrow-3 {
-  max-width: 250px;
-  opacity: 0.5;
-  position: absolute;
-  right: -30px;
-  bottom: -100px;
-}
-
-.highlight {
+:deep(.highlight) {
   color: white;
+}
+
+:deep(a) {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid $highlight;
+  padding-bottom: 2px;
+  &:hover {
+    color: white;
+  }
 }
 </style>

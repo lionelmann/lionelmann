@@ -1,76 +1,71 @@
 <template>
   <div class="grid-2-columns">
     <div>
-      <div class="subtitle">My Experience</div>
-      <h2>
-        I<span class="color-accent-1">/</span>ve work<span
-          class="color-accent-1"
-          >/</span
-        >ed for some amazing companies & organisations
-      </h2>
+      <div class="subtitle">{{ $t("experience.tagline") }}</div>
+      <h2 v-html="$t('experience.title')"></h2>
     </div>
-    <LinkCTA text="Email Me" link="mailto:lionelmann@gmail.com" />
+    <LinkCTA :text="$t('email')" link="mailto:lionelmann@gmail.com" />
   </div>
 
-  <div
-    v-for="experience in pastExperiences"
-    :key="experience.id"
-    class="grid-3-columns past-experience"
-  >
-    <img :src="experience.imageUrl" :alt="experience.altText" />
+  <div class="grid-3-columns past-experience" data-aos="fade-up">
+    <div style="text-align: center">
+      <img src="/logo-hype.svg" alt="Hypenotic logo" />
+    </div>
     <div>
-      <h4 v-html="experience.title"></h4>
-      <p>
-        {{ experience.description }}
-      </p>
+      <h4 v-html="$t('experience.roleOne.title')"></h4>
+      <div v-html="$t('experience.roleOne.content')"></div>
     </div>
     <div class="flex">
       <time>
-        {{ experience.startDate }}
+        {{ $t("experience.roleOne.startDate") }}
       </time>
       <div class="details-slash-divider">/</div>
       <time>
-        {{ experience.endDate }}
+        {{ $t("experience.roleOne.endDate") }}
+      </time>
+    </div>
+  </div>
+
+  <div class="grid-3-columns past-experience" data-aos="fade-up">
+    <div style="text-align: center">
+      <img src="/logo-ccs.svg" alt="CCS logo" />
+    </div>
+    <div>
+      <h4 v-html="$t('experience.roleTwo.title')"></h4>
+      <div v-html="$t('experience.roleTwo.content')"></div>
+    </div>
+    <div class="flex">
+      <time>
+        {{ $t("experience.roleTwo.startDate") }}
+      </time>
+      <div class="details-slash-divider">/</div>
+      <time>
+        {{ $t("experience.roleTwo.endDate") }}
+      </time>
+    </div>
+  </div>
+
+  <div class="grid-3-columns past-experience" data-aos="fade-up">
+    <div style="text-align: center">
+      <img src="/logo-outpost.svg" alt="Outpost logo" />
+    </div>
+    <div>
+      <h4 v-html="$t('experience.roleThree.title')"></h4>
+      <div v-html="$t('experience.roleThree.content')"></div>
+    </div>
+    <div class="flex">
+      <time>
+        {{ $t("experience.roleThree.startDate") }}
+      </time>
+      <div class="details-slash-divider">/</div>
+      <time>
+        {{ $t("experience.roleThree.endDate") }}
       </time>
     </div>
   </div>
 </template>
 
-<script setup>
-const pastExperiences = [
-  {
-    id: 1,
-    imageUrl: "/logo-hype.svg",
-    altText: "Hypenotic logo",
-    title: "Development Lead",
-    description:
-      "Lorem ipsum dolor sit amet consectet adipiscing elit et et est eget tortor lacus aliquam pulvinar senectus ut sapien sed nun",
-    startDate: "Sept 2010",
-    endDate: "Present",
-  },
-
-  {
-    id: 2,
-    imageUrl: "/logo-ccs.svg",
-    altText: "CCS logo",
-    title: "Technical Specialist, E-Business",
-    description:
-      "Lorem ipsum dolor sit amet consectet adipiscing elit et et est eget tortor lacus aliquam pulvinar senectus ut sapien sed nun",
-    startDate: "Jan 2001",
-    endDate: "Jul 2009",
-  },
-  {
-    id: 2,
-    imageUrl: "/logo-outpost.svg",
-    altText: "Outpost logo",
-    title: "Associate Editor + <br>Online Manager",
-    description:
-      "Lorem ipsum dolor sit amet consectet adipiscing elit et et est eget tortor lacus aliquam pulvinar senectus ut sapien sed nun",
-    startDate: "Sept 2004",
-    endDate: "Apr 2009",
-  },
-];
-</script>
+<script setup></script>
 
 <style lang="scss" scoped>
 .grid-2-columns {

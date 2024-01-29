@@ -44,7 +44,7 @@ h1 {
 }
 
 h2 {
-  font: normal 500 57px/95% 'Lora';
+  font: normal 500 57px/105% 'Lora';
 }
 
 h3 {
@@ -75,7 +75,7 @@ p {
 
 
 .meta {
-  color: rgb(65 190 117);
+  color: $highlight;
   font: normal 500 19px/150% Ubuntu;
   letter-spacing: -0.02rem;
   text-transform: uppercase;
@@ -83,7 +83,7 @@ p {
 }
 
 .color-accent-1 {
-  color: rgb(65 190 117);
+  color: $highlight;
   font-size: 32px;
   font-weight: 700;
   vertical-align: top;
@@ -91,7 +91,7 @@ p {
 }
 
 .details-slash-divider {
-  color: rgb(65 190 117);
+  color: $highlight;
   font-weight: 700;
   line-height: 1em;
   margin: 3.5px 10px 0 10px;

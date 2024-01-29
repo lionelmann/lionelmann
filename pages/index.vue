@@ -8,7 +8,7 @@
 
     <div class="grid-testimonials" data-aos="fade-up">
       <MyTestimonials
-        v-for="(testimonial, index) in getCherryPickedTestimonials([0, 1])"
+        v-for="(testimonial, index) in cherryPickedTestimonials([0, 1])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -20,7 +20,7 @@
 
     <div class="grid-testimonials" data-aos="fade-up">
       <MyTestimonials
-        v-for="(testimonial, index) in getCherryPickedTestimonials([2, 3])"
+        v-for="(testimonial, index) in cherryPickedTestimonials([2, 3])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -32,9 +32,7 @@
 
     <div class="grid-testimonials" data-aos="fade-up">
       <MyTestimonials
-        v-for="(testimonial, index) in getCherryPickedTestimonials([
-          4, 5, 6, 7,
-        ])"
+        v-for="(testimonial, index) in cherryPickedTestimonials([4, 5, 6, 7])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -43,7 +41,16 @@
 </template>
 
 <script setup>
-import { getCherryPickedTestimonials } from "~/utils/testimonials";
+import { getCherryPickedTestimonialsEN } from "~/utils/testimonials_en";
+import { getCherryPickedTestimonialsFR } from "~/utils/testimonials_fr";
+
+const { locale } = useI18n();
+const currentLocale = locale.value;
+
+const cherryPickedTestimonials =
+  currentLocale === "en"
+    ? getCherryPickedTestimonialsEN
+    : getCherryPickedTestimonialsFR;
 </script>
 
 <style scoped lang="scss">

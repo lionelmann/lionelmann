@@ -3,8 +3,8 @@
     <div class="grid-item"><Menu :header="false" /></div>
     <div class="grid-item">
       <div>
-        © 2002 - {{ d.getFullYear() }}. Built with
-        <img src="/logo-nuxt.svg" />
+        © 2001 - {{ d.getFullYear() }}. {{ $t("built") }}
+        <img src="/logo-nuxt.svg" alt="Nuxt Logo" />
       </div>
     </div>
   </div>
@@ -18,10 +18,10 @@ const d = new Date();
 .grid-copyright {
   display: grid;
   margin: 0 auto;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 8px;
+  grid-template-columns: 2fr 1fr;
+  gap: 4px;
   margin-top: 48px;
-  @media (max-width: 767px) {
+  @media (max-width: 990px) {
     grid-template-columns: 1fr;
   }
 }
@@ -34,7 +34,8 @@ const d = new Date();
 
 .grid-item:nth-last-of-type(1) {
   justify-self: end;
-  @media (max-width: 767px) {
+  @media (max-width: 990px) {
+    margin-top: 16px;
     justify-self: start;
   }
 }

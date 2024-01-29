@@ -1,0 +1,132 @@
+{
+  "header": {
+    "headline": "Bonjour, j'aide les gens à harmoniser leurs objectifs commerciaux avec des expériences numériques positives et mémorables.",
+    "meta": "Besoin d'aide avec vos objectifs en ligne?"
+  },
+  "menu": {
+    "one": "Comment je travaille",
+    "two": "Éthique",
+    "three": "Réserver mon cerveau",
+    "four": "Le Continuum"
+  },
+  "email": "Envoyez-moi un courriel",
+  "bookmybrain": "Réservez mon cerveau",
+  "notes": "Notes de cours",
+  "clients": {
+    "headline": "Organisations, entreprises et entrepreneurs avec lesquels j'ai collaboré"
+  },
+  "principles": {
+    "headline": "Principes pour construire un meilleur web",
+    "one": "<span class='highlight'>Inclusivité et accessibilité:</span> Concevoir pour tous, en veillant à ce que le contenu web soit accessible à chacun, indépendamment des capacités, en respectant des normes telles que <a href='https://www.w3.org/TR/WCAG21/' target='_blank'>WCAG</a> et <a href='https://www.ontario.ca/page/how-make-websites-accessible' target='_blank'>AODA</a>.",
+    "two": "<span class='highlight'>Conception éthique et autonomisation de l'utilisateur:</span> Prioriser le bien-être et la vie privée des utilisateurs, éviter les pratiques manipulatrices, et offrir des choix clairs pour autonomiser les utilisateurs.",
+    "three": "<span class='highlight'>Durabilité et performance:</span> Construire des expériences web écologiquement durables avec des performances optimisées, minimisant la consommation d'énergie pour un environnement en ligne plus rapide et respectueux de l'environnement."
+  },
+  "about": {
+    "title": "À propos de moi",
+    "content": "<p>Je dirige les initiatives de développement chez <a href=\"https://hypenotic.com\" target=\"_blank\" class=\"link\">Hypenotic</a>, une entreprise torontoise spécialisée en conception, développement et stratégie, et fondatrice de la B Corporation canadienne.</p> <p>À côté, je m'engage dans des travaux indépendants de stratégie et de développement, répondant à des projets et des clients qui peuvent ne pas correspondre à la portée d'une agence complète en raison de contraintes budgétaires ou logistiques.</p> <p>Mon engagement s'étend à la création d'applications et de sites web sur mesure et performants, qui privilégient l'optimisation, les normes web, la réactivité mobile et la durabilité environnementale comme principes fondamentaux.</p> <p>J'offre une expertise en stratégie, conception UX, développement, expérience utilisateur, commerce électronique et l'établissement d'objectifs mesurables.</p> <p>Au fil du temps, j'ai cultivé un réseau de partenaires capables de fournir des services supplémentaires, y compris la conception et la création de contenu.</p> <p>Si vous avez un projet et recherchez une approche collaborative :</p>",
+  },
+    "helpWith": {
+    "title": "Je peux aider avec",
+    "content": "<ul><li>Stratégie</li><li>Leadership</li><li>Mentorat</li><li>Gestion de projet</li><li>Développement web</li><li>Expérience utilisateur</li><li>Audit de site</li><li>Normes web</li><li>Bogues et dépannage</li><li>Analytics</li><li>Commerce électronique</li></ul>"
+  },
+  "built": "Construit avec",
+  "howWeWork": {
+    "title": "Notre Méthode de Travail",
+    "tagline": "Les Détails Importants",
+    "background": {
+      "title": "Contexte",
+      "content": "<p>Je dirige les initiatives de développement chez <a href='https://hypenotic.com' target='_blank' class='link'>Hypenotic</a>, une agence de conception, développement et stratégie basée à Toronto et fondatrice d'une B Corporation canadienne.</p><p>Parallèlement, je m'engage dans des travaux indépendants de stratégie et de développement, répondant à des projets et clients qui peuvent ne pas correspondre à la portée d'une agence complète en raison de contraintes budgétaires ou logistiques.</p><p>Mon engagement se traduit par la création d'applications et de sites web sur mesure et performants, privilégiant l'optimisation, les normes web, la réactivité mobile et la durabilité environnementale comme principes fondamentaux.</p><p>J'offre une expertise en stratégie, conception UX, développement, expérience utilisateur, commerce électronique et l'établissement d'objectifs mesurables.</p>"
+    },
+    "approach": {
+      "title": "Approche Collaborative",
+      "content": "<p>La majorité de mes engagements impliquent des tâches axées sur le projet, bien que je sois ouvert à travailler également sur des contrats de rétention. Les contrats de rétention sont structurés autour d'un nombre de jours convenu mutuellement par mois ou en fonction d'un problème, d'une fonctionnalité ou d'un objectif spécifique.</p><p>Lors des collaborations sur des projets, je planifie des réunions régulières pour maintenir un flux de travail fluide. En général, ces réunions ont lieu chaque semaine, surtout aux premiers stades du projet, bien que nous puissions personnaliser la fréquence pour mieux répondre à nos besoins.</p><p>Pour la gestion de projet, j'utilise <a href=\"https://basecamp.com/\" target=\"_blank\" class=\"link\">Basecamp</a> pour la collaboration et l'organisation, et <a href=\"https://clockify.me/\" target=\"_blank\" class=\"link\">Clockify</a> pour le suivi du temps et la facturation.</p>"
+    },
+    "costs": {
+      "title": "Coûts",
+      "content": "<p>L'estimation est toujours un défi, semblable à déterminer la longueur d'une pelote de fil. Bien que nous établissions généralement une compréhension claire des objectifs d'un projet aux premiers stades, des incertitudes surviennent inévitablement et notre compréhension des meilleures solutions évolue avec le progrès.</p><p>Étant donné le caractère changeant du terrain, mon approche recommandée est de fournir des estimations basées sur un tarif journalier plutôt qu'un prix fixe. Adopter cette méthode flexible nous permet de nous concentrer sur la livraison de la solution la plus adaptée à mesure que nous acquérons de nouvelles perspectives.</p><p>Cependant, si un devis fixe est une exigence, je recommande d'opter pour un bref projet de découverte. Le résultat de cela sera un périmètre fixe, ou du moins une plage étroite, avec des coûts associés, assurant la clarté et la transparence dans la structure tarifaire.</p>"
+    },
+    "development": {
+      "title": "Développement",
+      "content": "<p>Si vous avez besoin d'un site web, je suggère d'utiliser <a href=\"https://wordpress.com\" target=\"_blank\" class=\"link\">WordPress</a> ou <a href=\"https://strapi.io/\" target=\"_blank\" class=\"link\">Strapi</a> comme outils pour organiser votre contenu. Bien que d'autres systèmes de gestion de contenu soient disponibles, je préfère utiliser un <a href=\"https://www.storyblok.com/tp/headless-cms-explained\" target=\"_blank\" class=\"link\">CMS sans tête</a>. Ce type de système sépare l'aspect visuel de votre contenu (la couche de présentation) de l'endroit où il est stocké et géré (le backend). Avec un CMS sans tête, vous pouvez gérer votre contenu en un seul endroit central et l'afficher facilement sur différentes plateformes numériques.</p><p>En ce qui concerne la création des éléments visuels d'un site web, ma préférence va vers l'utilisation de <a href=\"https://nuxt.com/\" target=\"_blank\" class=\"link\">Nuxt</a>. Nuxt est un framework open-source conçu pour simplifier le développement web d'applications haute performance.</p>"
+    },
+    "design": {
+      "title": "Conception",
+      "content": "<p>Bien que je possède une solide compréhension des principes d'une bonne conception et que je respecte les meilleures pratiques, je ne me considère pas comme un 'designer'. Si vous avez déjà un designer, je serais heureux de collaborer avec lui lors des phases de conception et de développement.</p>"
+    },
+    "other": {
+      "title": "Autres Services",
+      "content": "<p>Au fil des ans, j'ai développé un réseau de personnes pouvant fournir des services de conception et de contenu si le besoin se fait sentir.</p><p>Si vous souhaitez discuter d'un projet ou si vous avez des questions, n'hésitez pas à me contacter.</p>"
+    }
+  },
+  "work": {
+    "tagline": "Plus de 10 ans de succès prouvé en tant que professionnel axé sur les résultats",
+    "title": "Le Continuum"
+},
+  "experience": {
+    "tagline": "Mon expérience",
+    "title": "J'ai travaillé pour quelques entreprises et organisations exceptionnelles",
+    "roleOne" : {
+      "title": "Développeur en chef",
+      "content": "<p>Chef de développement pour une entreprise de design, de développement et de stratégie, et cofondatrice d'une B Corporation canadienne. Je dirige et encadre l'équipe de développement. Je recherche de nouvelles technologies à intégrer dans notre pile de développement et nos processus. Et j'aide les clients à transformer leur vision d'entreprise en réalité numérique.</p>",
+      "startDate": "Sept 2010",
+      "endDate": "Présent",
+      },
+     "roleTwo": {
+      "title": "Spécialiste technique, E-Business",
+      "content": "<p>Lorem ipsum dolor sit amet consectet adipiscing elit et et est eget tortor lacus aliquam pulvinar senectus ut sapien sed nun</p>",
+      "startDate": "Jan 2001",
+      "endDate": "Juil 2009"
+    },
+    "roleThree": {
+      "title": "Éditeur associé + <br>Gestionnaire en ligne",
+      "content": "<p>Gestion des opérations web, du contenu en ligne et gestion de projet pour le site web du magazine Outpost en 2007. Gestion de la migration des données d'un système existant et développement d'une version mobile.</p><p>Proposition d'idées d'articles à l'éditeur et participation à des missions d'articles à l'étranger à Taïwan, en Amérique centrale et en Afrique du Sud. Rédaction, recherche et vérification des faits pour des articles basés sur des histoires assignées.</p>",
+      "startDate": "Sept 2004",
+      "endDate": "Avr 2004"
+    }
+  },
+  "education": {
+    "tagline": "Ma formation",
+    "title": "Éducation et apprentissage tout au long de la vie",
+    "one": {
+      "title": "Cours Vue & Nuxt",
+      "school": "Vue Mastery",
+      "date": "2018 - À ce jour",
+      "content": "Développement d'applications évolutives avec Nuxt.js"
+    },
+    "two": {
+      "title": "Nanodegré, Fondements des données",
+      "school": "Udacity",
+      "date": "2018",
+      "content": "Le Nanodegré Fondements des données est un programme de 3 mois qui enseigne les bases de l'analyse de données telles que les statistiques descriptives, l'analyse de données Excel, les requêtes de base de données SQL et la création de visualisations percutantes dans Tableau."
+    },
+    "three": {
+      "title": "Diplôme de webmestre, <br>Développement web et design",
+      "school": "First Interact Computer College",
+      "date": "2000"
+    },
+    "four": {
+      "title": "Baccalauréat (Double majeure), Science politique et Sociologie",
+      "school": "Université Dalhousie",
+      "date": "1994 - 1998"
+    }
+  },
+  "ethics": {
+    "tagline": "À savoir",
+    "title": "Éthique",
+    "intro": "<p>Je m'engage à favoriser une prise de décision responsable pour mes clients. Mon objectif est de fonctionner de manière éthique et d'être une force positive.</p><p>Cela est constamment évalué et est en cours d'amélioration.</p>",
+    "whatDone": {
+      "title": "Ce que j'ai fait",
+      "content": "<ul><li>Pris l'engagement de Mouvement Éthique</li><li>Soutenu la Fondation Frontier Électronique</li><li>N'accepter que le travail que je sais pouvoir livrer</li><li>Assurer un paiement rapide et équitable</li><li>Maintenir la transparence dans le processus, en communiquant clairement les capacités et les limitations</li><li>Utiliser les médias sociaux de manière responsable</li></ul>"
+    },
+    "whatNotDone": {
+      "title": "Ce que je ne ferai pas",
+      "content": "<ul><li>Utiliser des motifs de conception trompeurs (anciennement appelés schémas sombres)</li><li>Diffuser des publicités comportementales</li><li>Offrir des ventes permanentes</li><li>Utiliser des pixels espions dans les courriels</li></ul>"
+    },
+    "sectors": {
+      "title": "Je ne travaillerai pas dans ces secteurs",
+      "content": "<ul><li>Armements</li><li>Crypto/NFT/Web3</li><li>Défense</li><li>Jeux de hasard</li><li>Prêts sur salaire et prêts à taux élevé</li><li>Tabac</li></ul>"
+    }
+  }  
+}
+
+   

@@ -1,0 +1,130 @@
+{
+  "header": {
+    "headline": "Hi, I help people harmonise their business objectives with positive and memorable digital experiences.",
+    "meta": "Need help with your online goals?"
+  },
+  "menu": {
+    "one": "How I Work",
+    "two": "Ethics",
+    "three": "Book My Brain",
+    "four": "The Continuum"
+  },
+  "email": "Email Me",
+  "bookmybrain": "Book My Brain",
+  "notes": "Course Notes",
+  "clients" : {
+    "headline": "Organisations, companies & entrepreneurs I've collaborated with"
+  },
+  "principles": {
+    "headline":"Principles for building a better web",
+    "one": "<span class='highlight'>Inclusivity and Accessibility:</span> Design for all, ensuring web content is accessible to everyone, regardless of abilities, through adherence to standards like <a href='https://www.w3.org/TR/WCAG21/' target='_blank'>WCAG</a> and <a href='https://www.ontario.ca/page/how-make-websites-accessible' target='_blank'>AODA</a>.",
+    "two": "<span class='highlight'>Ethical Design and User Empowerment:</span>  Prioritize user well-being and privacy, avoiding manipulative practices, and providing clear choices to empower users.",
+    "three": "<span class='highlight'>Sustainability and Performance:</span>  Build environmentally sustainable web experiences with optimized performance, minimizing energy consumption for a faster and eco-friendly online environment."
+  },
+  "about": {
+    "title": "About Me",
+    "content": "<p>I lead the development initiatives at <a href=\"https://hypenotic.com\" target=\"_blank\" class=\"link\">Hypenotic</a>, a Toronto based design, development, and strategy firm and founding Canadian B Corporation.</p> <p>On the side, I engage in independent strategy and development work, catering to projects and clients that may not align with the scope of a comprehensive agency due to budgetary or logistical constraints.</p> <p>My commitment extends to crafting bespoke, performant apps and websites that prioritize optimization, web standards, mobile responsiveness, and environmental sustainability as core tenets.</p> <p>I offer expertise in strategy, UX design, development, user experience, e-commerce and the establishment of measurable goals.</p> <p>Over time, I've cultivated a network of partners capable of delivering supplementary services, including design and content creation.</p> <p>If you have a project and seek a collaborative approach:</p>",
+  },
+   "helpWith": {
+    "title": "I can help with",
+    "content": "<ul><li>Strategy</li><li>Leadership</li><li>Mentorship</li><li>Project Management</li><li>Web Development</li><li>User Experience</li><li>Site Auditing</li><li>Web Standards</li><li>Bugs & Troubleshooting</li><li>Analytics</li><li>E-commerce</li></ul>"
+  },
+  "built": "Built with",
+  "howWeWork": {
+    "title": "How We Work",
+    "tagline": "The Nitty Gritty",
+    "background": {
+      "title": "Background",
+      "content": "<p> I lead the development initiatives at <a href='https://hypenotic.com' target='_blank' class='link'>Hypenotic</a>, a Toronto based design, development, and strategy firm and founding Canadian B Corporation.</p><p>On the side, I engage in independent strategy and development work, catering to projects and clients that may not align with the scope of a comprehensive agency due to budgetary or logistical constraints. </p><p>My commitment extends to crafting bespoke, performant apps and websites that prioritize optimization, web standards, mobile responsiveness, and environmental sustainability as core tenets.</p><p>I offer expertise in strategy, UX design, development, user experience, e-commerce and the establishment of measurable goals.</p>",
+    },
+    "approach": {
+      "title": "Collaborative Approach",
+      "content": "<p>The majority of my engagements involve project-centric tasks, although I'm open to working on retainers as well. Retainers are structured around a mutually agreed-upon number of days per month or based on a specific issue, feature or goal.</p><p>During project collaborations, I scheduling regular meetings to maintain a seamless workflow. Typically, these meetings occur weekly, especially in the project's initial stages, though we can customize the frequency to better suit our needs.</p><p>For project management, I use <a href=\"https://basecamp.com/\" target=\"_blank\" class=\"link\">Basecamp</a> for collaboration and organization and <a href=\"https://clockify.me/\" target=\"_blank\" class=\"link\">Clockify</a> for time tracking and invoicing.</p>"
+    },
+    "costs": {
+      "title": "Costs",
+      "content": "<p>Estimation is always a challenge, akin to determining the length of a ball of string. Although we typically establish a clear understanding of a project's goals in the early stages, uncertainties inevitably arise, and our grasp of the best solutions evolves with progress.</p><p>Given the shifting ground, my recommended approach is to provide estimates based on a day rate rather than a fixed price. Embracing this flexible method allows us to concentrate on delivering the most suitable solution as we gain further insights.</p><p>However, if a fixed quote is a prerequisite, I recommend opting for a brief discovery project. The outcome of this will be a fixed scope, or at least a narrow range, with associated costs, ensuring clarity and transparency in the pricing structure.</p>"
+    },
+    "development": {
+      "title": "Development",
+      "content": "<p>If you need a website, I suggest using <a href=\"https://wordpress.com\" target=\"_blank\" class=\"link\">WordPress</a> or <a href=\"https://strapi.io/\" target=\"_blank\" class=\"link\">Strapi</a> as the tools to organize your content. While other content management systems are available, I lean towards using a <a href=\"https://www.storyblok.com/tp/headless-cms-explained\" target=\"_blank\" class=\"link\">Headless CMS</a>. This type of system separates how your content looks (the presentation layer) from where it's stored and managed (the backend). With a Headless CMS, you can manage your content in one central location and easily display it on various digital platforms.</p><p>When it comes to crafting the visual elements of a website, my preference leans towards leveraging <a href=\"https://nuxt.com/\" target=\"_blank\" class=\"link\">Nuxt</a>. Nuxt is an open-source framework designed to streamline web development for high-performance applications.</p>"
+    },
+    "design": {
+      "title": "Design",
+      "content": "<p>While I possess a strong understanding of the principles of good design and adhere to best practices, I don't identify as a 'designer.' If you already have a designer, I'm happy to collaborate with them during the design and development phases.</p>"
+    },
+    "other": {
+      "title": "Other Services",
+      "content": "<p>Over the years, I've developed a network of people who can provide design and content services if the need arises.</p><p>If you would like to discuss a project or have any questions, feel free to reach out.</p>"
+    }
+  },
+  "work": {
+    "tagline": "10+ years of proven success as a results-focused professional",
+    "title": "The Continuum"
+  },
+  "experience": {
+    "tagline": "My Experience",
+    "title": "I<span class='color-accent-1'>/</span>ve work<span class='color-accent-1'>/</span>ed for some amazing companies & organisations",
+    "roleOne" : {
+      "title": "Lead Developer",
+      "content": "<p>Developement Lead for a design, development, and strategy firm and founding Canadian B Corporation. I lead and mentor the development team. Research new technologies to integrate into our development stack and processes. And help clients transform their business vision into digital reality.</p>",
+      "startDate": "Sept 2010",
+      "endDate": "Present",
+      },
+     "roleTwo": {
+      "title": "Technical Specialist, E-Business",
+      "content": "<p>Lorem ipsum dolor sit amet consectet adipiscing elit et et est eget tortor lacus aliquam pulvinar senectus ut sapien sed nun</p>",
+      "startDate": "Jan 2001",
+      "endDate": "Jul 2009"
+    },
+    "roleThree": {
+      "title": "Associate Editor + <br>Online Manager",
+      "content": "<p>Managed web operations, online content, and project managed the 2007 Outpost Magazine website. Managed the migration of data from an existing system and developed a mobile version.</p><p>Pitched story ideas to Publisher and travelled on international story assignments to Taiwan, Central America and South Africa. Wrote, researched, and fact-checked articles based on assigned stories.</p>",
+      "startDate": "Sept 2004",
+      "endDate": "Apr 2004"
+    }
+  },
+  "education":{
+    "tagline": "My Education",
+    "title": "Education & lifelong learning",
+    "one": {
+      "title": "Vue & Nuxt Courses",
+      "school": "Vue Mastery",
+      "date": "2018 - Ongoing",
+      "content": "Building apps that can scale with Nuxt.js"
+    },
+    "two": {
+      "title": "Nanodegree, Data Foundations",
+      "school": "Udacity",
+      "date": "2018",
+      "content": "The Data Foundations Nanodegree is a 3-month program that teaches Data Analytics fundamentals like descriptive statistics, Excel data analysis, SQL database querying, and creating impactful visualizations in Tableau."
+    },
+    "three": {
+      "title": "Webmaster Diploma, <br>Web Development & Design",
+      "school": "First Interact Computer College",
+      "date": "2000"
+    },
+    "four": {
+      "title": "Bachelor Degree (Double Major), Political Science & Sociology",
+      "school": "Dalhousie University",
+      "date": "1994 - 1998"
+    }
+  },
+  "ethics":{
+    "tagline": "Things to Know",
+    "title": "Ethics",
+    "intro": " <p>I am dedicated to fostering responsible decision-making for my clients. My aim is to operate ethically and in a way that serves as a positive force.</p><p>This is constantly being evaluated and is a work in progress.</p>",
+    "whatDone": {
+      "title": "What I've done",
+      "content": "<ul><li>Taken The Ethical Move's pledge</li><li>Support the Electronic Frontier Foundation</li><li>Only accept work I know I can deliver</li><li>Ensure prompt and fair payment</li><li>Maintain transparency in the process, clearly communicating capabilities and limitations</li><li>Use Social media responsibly</li></ul>",
+    },
+    "whatNotDone":{
+      "title": "What I Won't do",
+      "content": "<ul><li>Use deceptive design patterns (formerly known as dark patterns)</li><li>Take out behavioural ads</li><li>Offer permasales</li><li>Use spy pixels in emails</li></ul>"
+    },
+    "sectors": {
+      "title": "I won't work in these sectors",
+      "content": "<ul><li>Arms</li><li>Crypto/NFTs/Web3</li><li>Defence</li><li>Gambling</li><li>Pay day loans & high-interest lending</li><li>Tobacco</li></ul>"
+    }
+  }
+}

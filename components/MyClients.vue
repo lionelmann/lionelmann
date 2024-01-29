@@ -1,6 +1,6 @@
 <template>
   <div class="panel">
-    <h3>Organisations, companies & entrepreneurs I've collaborated with</h3>
+    <h3>{{ $t("clients.headline") }}</h3>
 
     <div class="grid">
       <img
@@ -51,7 +51,7 @@
 }
 
 h3 {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
 }

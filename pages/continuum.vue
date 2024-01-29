@@ -1,15 +1,15 @@
 <template>
   <div>
     <div class="meta">
-      Team-oriented, development lead with 10+ years experience
+      {{ $t("work.tagline") }}
     </div>
-    <h1>The Continuum</h1>
+    <h1>{{ $t("work.title") }}</h1>
 
     <Divider top="80px" bottom="96px" />
 
-    <div class="grid-testimonials">
+    <div class="grid-testimonials" data-aos="fade-up">
       <MyTestimonials
-        v-for="(testimonial, index) in getCherryPickedTestimonials([8, 9])"
+        v-for="(testimonial, index) in cherryPickedTestimonials([8, 9])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -21,9 +21,9 @@
 
     <Divider top="96px" bottom="96px" />
 
-    <div class="grid-testimonials">
+    <div class="grid-testimonials" data-aos="fade-up">
       <MyTestimonials
-        v-for="(testimonial, index) in getCherryPickedTestimonials([1, 2])"
+        v-for="(testimonial, index) in cherryPickedTestimonials([1, 2])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -31,15 +31,13 @@
 
     <Divider top="96px" bottom="96px" />
 
-    <MyEducation />
+    <MyEducation data-aos="fade-up" />
 
     <Divider top="96px" bottom="96px" />
 
-    <div class="grid-testimonials">
+    <div class="grid-testimonials" data-aos="fade-up">
       <MyTestimonials
-        v-for="(testimonial, index) in getCherryPickedTestimonials([
-          5, 6, 7, 8,
-        ])"
+        v-for="(testimonial, index) in cherryPickedTestimonials([5, 6, 7, 8])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -48,7 +46,15 @@
 </template>
 
 <script setup>
-import { getCherryPickedTestimonials } from "~/utils/testimonials";
-</script>
+import { getCherryPickedTestimonialsEN } from "~/utils/testimonials_en";
+import { getCherryPickedTestimonialsFR } from "~/utils/testimonials_fr";
 
+const { locale } = useI18n();
+const currentLocale = locale.value;
+
+const cherryPickedTestimonials =
+  currentLocale === "en"
+    ? getCherryPickedTestimonialsEN
+    : getCherryPickedTestimonialsFR;
+</script>
 <style scoped lang="scss"></style>

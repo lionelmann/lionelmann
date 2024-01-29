@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink to="/">
+  <NuxtLink :to="localePath('/')">
     <div class="f-logo">
       Lionel
       <div class="mann">Mann</div>

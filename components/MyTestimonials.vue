@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-const props = defineProps(["testimonial", "pick"]);
+const props = defineProps(["testimonial"]);
 </script>
 <style scoped lang="scss">
 .card-container {
