@@ -96,7 +96,7 @@ export default defineNuxtConfig({
         },
       ],
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
-      script: [{ src: 'https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js' },  {
+      script: [{
         src: "https://unpkg.com/website-carbon-badges@1.1.3/b.min.js",
         defer: true
       }],
