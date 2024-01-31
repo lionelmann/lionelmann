@@ -1,6 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['@nuxt/image','nuxt-aos','@nuxtjs/color-mode','nuxt-icon',['@nuxtjs/google-fonts', {
+  modules: ['nuxt-gtag','@nuxt/image','nuxt-aos','@nuxtjs/color-mode','nuxt-icon',['@nuxtjs/google-fonts', {
     families: {
       'Ubuntu': true,
       'Lora': true,
@@ -33,6 +33,14 @@ export default defineNuxtConfig({
   css: [
     "~/assets/_base.scss", "~/assets/_layout.scss",
   ],
+  gtag: {
+    // The Google Analytics 4 property ID to use for tracking
+    id: 'G-Y4146R4STR',
+    // Additional configuration for the Google Analytics 4 property
+    config: {
+      page_title: 'Lionel Mann'
+    }
+  },
   
   app: {
     head: {

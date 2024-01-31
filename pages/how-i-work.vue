@@ -44,9 +44,7 @@
 
     <div class="grid-testimonials" data-aos="fade-up">
       <MyTestimonials
-        v-for="(testimonial, index) in cherryPickedTestimonials([
-          4, 5, 6, 7, 8, 9,
-        ])"
+        v-for="(testimonial, index) in cherryPickedTestimonials([0, 2, 1, 9])"
         :key="index"
         :testimonial="testimonial"
       />

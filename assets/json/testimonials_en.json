@@ -1,5 +1,6 @@
 [
     {
+      "id": "0",
       "image": "/t-chrisfrey.jpg",
       "name": "Chris Frey",
       "quote": "As a writer and photographer, Lionel was a key contributor to Outpost Magazine - around the time we won Magazine of the Year. Lionel was <span class='highlight'>critical in helping us develop an overall online strategy and site architecture</span>.",
@@ -7,54 +8,77 @@
     },
     
     {
+      "id": "1",
       "image": "/t-michaelbudd.jpeg",
       "name": "Michael Budd",
       "quote": "Lionel is goal-oriented and adds value to multi-faceted team-based projects. <span class='highlight'>He works well with team members and in identifying and capitalizing upon their strengths and developing their weaknesses.</span>",
       "role": "Director, Advisor Digital Activation Strategy, RBC"
     },
     {
+      "id": "2",
       "image": "/t-nataliakantor.jpeg",
       "name": "Natalia Kantor",
       "quote": "Lionel was responsible for development of a complex site for Planet in Focus, Canada's largest Environmental Film Festival. <span class='highlight'>He is a reliable, accessible and inventive programmer</span> with amazing problem solving skills.",
       "role": "Communications Manager, Planet in Focus"
     },
     {
+      "id": "3",
+      "image": "/t-nataliakantor.jpeg",
+      "name": "Natalia Kantor",
+      "quote": "<span class='highlight'>Lionel was responsible for development of a complex site for Planet in Focus, Canada's largest Environmental Film Festival.</span> He is a reliable, accessible and inventive programmer with amazing problem solving skills.",
+      "role": "Communications Manager, Planet in Focus"
+    },
+    {
+      "id": "4",
       "image": "/t-cathymoore.jpg",
       "name": "Cathy Moore",
       "quote": "A great online strategist, Lionel is passionate about emerging trends and continually brings new ideas to the table.  <span class='highlight'>He is a creative designer, an exceptional team player, and a great coach and teacher.</span>",
       "role": "Director, Online, Canadian Cancer Society"
     },
     {
+      "id": "5",
+      "image": "/t-cathymoore.jpg",
+      "name": "Cathy Moore",
+      "quote": "<span class='highlight'>A great online strategist, Lionel is passionate about emerging trends and continually brings new ideas to the table.</span>  He is a creative designer, an exceptional team player, and a great coach and teacher.",
+      "role": "Director, Online, Canadian Cancer Society"
+    },
+    {
+      "id": "6",
       "image": "/t-stevehurtado.jpeg",
       "name": "Steve Hurtado",
       "quote": "He was technically proficient, knowledgeable about what the product could and could not do, <span class='highlight'>a good communicator, and was always professional and fun to work with.</span> He would be an asset to any organization.",
       "role": "Global Incubation Lead, Google"
     },
     {
+      "id": "7",
       "image": "/t-chrisfrey.jpg",
       "name": "Chris Frey",
       "quote": "<span class='highlight'>If Lionel were a car mechanic, he'd be as happy under the hood, tooling with the engine, as he would be obsessed with design detailing.</span> He is a resourceful problem solver who is constantly pushing his skills.",
       "role": "Founder Outpost, No Media Co."
     },
     {
+      "id": "8",
       "image": "/t-rodneyronquillo.jpeg",
       "name": "Rodney Ronquillo",
       "quote": "Lionel is a skilled and detail-oriented professional,  <span class='highlight'>demonstrating exceptional leadership qualities.</span> Constantly seeking avenues to enhance his contributions to the organization and colleagues.",
       "role": "Designer, Producer"
     },
     {
+      "id": "9",
       "image": "/t-cathymoore.jpg",
       "name": "Cathy Moore",
       "quote": "In his time at CCS, Lionel developed a track record of researching and <span class='highlight'>presenting ideas that were understandable, actionable and measurable, and successfully managing</span> those resulting projects.",
       "role": "Director, Online, Canadian Cancer Society"
     },
     {
+      "id": "10",
       "image": "/t-rachnasharma.jpeg",
       "name": "Rachna Sharma",
       "quote": "Collaborating with Lionel on various projects, including a pilot project at the Cancer Society, was truly enjoyable. <span class='highlight'>His technical proficiency and keen attention to detail</span> make him a valuable asset to the team!",
       "role": "Director at Sun Life Financial"
     },
     {
+      "id": "11",
       "image": "/t-catherineallman.jpeg",
       "name": "Catherine Allman",
       "quote": "Lionel <span class='highlight'>combined creativity and reliability to produce an excellent online, on-time presence</span> for the Canadian Cancer Society.",

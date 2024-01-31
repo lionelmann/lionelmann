@@ -8,7 +8,7 @@
 
     <div class="grid-testimonials" data-aos="fade-up">
       <MyTestimonials
-        v-for="(testimonial, index) in cherryPickedTestimonials([0, 1])"
+        v-for="(testimonial, index) in cherryPickedTestimonials([3, 11])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -20,7 +20,7 @@
 
     <div class="grid-testimonials" data-aos="fade-up">
       <MyTestimonials
-        v-for="(testimonial, index) in cherryPickedTestimonials([2, 3])"
+        v-for="(testimonial, index) in cherryPickedTestimonials([5, 7])"
         :key="index"
         :testimonial="testimonial"
       />
@@ -32,7 +32,7 @@
 
     <div class="grid-testimonials" data-aos="fade-up">
       <MyTestimonials
-        v-for="(testimonial, index) in cherryPickedTestimonials([4, 5, 6, 7])"
+        v-for="(testimonial, index) in cherryPickedTestimonials([1, 8, 6, 10])"
         :key="index"
         :testimonial="testimonial"
       />
