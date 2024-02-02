@@ -1,28 +1,20 @@
 <template>
-  <div>
-    <div>
-      <h2>{{ $t("principles.headline") }}</h2>
+  <h2>{{ $t("principles.headline") }}</h2>
+  <div class="grid-container">
+    <div class="grid-row span-row">
+      <p v-html="$t('principles.one')"></p>
+      <NuxtImg src="/noun-dataset.svg" alt="Performance Icon" />
     </div>
-    <div class="grid-container">
-      <div class="grid-row span-row">
-        <div>
-          <p v-html="$t('principles.one')"></p>
-        </div>
-        <NuxtImg src="/noun-dataset.svg" alt="Performance Icon" />
-      </div>
-      <div class="grid-column item-1">
-        <NuxtImg src="/noun-ai-ethics.svg" alt="Ethical Design Icon" />
-        <div>
-          <p v-html="$t('principles.two')"></p>
-        </div>
-      </div>
-      <div class="grid-column item-2">
-        <div><p v-html="$t('principles.three')"></p></div>
-        <NuxtImg
-          src="/noun-artificial-intelligence.svg"
-          alt="Accessibility Icon"
-        />
-      </div>
+    <div class="grid-column item-1">
+      <NuxtImg src="/noun-ai-ethics.svg" alt="Ethical Design Icon" />
+      <p v-html="$t('principles.two')"></p>
+    </div>
+    <div class="grid-column item-2">
+      <p v-html="$t('principles.three')"></p>
+      <NuxtImg
+        src="/noun-artificial-intelligence.svg"
+        alt="Accessibility Icon"
+      />
     </div>
   </div>
 </template>

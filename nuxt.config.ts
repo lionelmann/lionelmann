@@ -29,6 +29,9 @@ export default defineNuxtConfig({
       },
     }
   ]],
+  image: {
+    domains: ['localhost']
+  },
   
   css: [
     "~/assets/_base.scss", "~/assets/_layout.scss",
