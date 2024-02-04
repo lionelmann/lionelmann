@@ -1,63 +1,87 @@
 [
   {
-    "image": "/t-chrisfrey.jpg",
+    "id": "0",
+    "image": "/t-chrisfrey.webp",
     "name": "Chris Frey",
-    "quote": "En tant qu'écrivain et photographe, Lionel a été un contributeur clé pour le magazine Outpost - à l'époque où nous avons remporté le titre de Magazine de l'Année. Lionel a été <span class='highlight'>essentiel pour nous aider à développer une stratégie globale en ligne et une architecture de site</span>.",
-    "role": "Fondateur d'Outpost, No Media Co."
+    "quote": "En tant qu'écrivain et photographe, Lionel a été un contributeur clé au magazine Outpost - à l'époque où nous avons remporté le Magazine de l'année. Lionel a été <span class='highlight'>essentiel pour nous aider à développer une stratégie en ligne globale et une architecture de site</span>.",
+    "role": "Fondateur Outpost, No Media Co."
   },
   
   {
-    "image": "/t-michaelbudd.jpeg",
+    "id": "1",
+    "image": "/t-michaelbudd.webp",
     "name": "Michael Budd",
-    "quote": "Lionel est orienté vers les objectifs et apporte de la valeur aux projets d'équipe multifacettes. <span class='highlight'>Il travaille bien avec les membres de l'équipe et identifie et exploite leurs forces tout en développant leurs faiblesses.</span>",
+    "quote": "Lionel est orienté vers les objectifs et apporte une valeur ajoutée aux projets d'équipe multifacettes. <span class='highlight'>Il travaille bien avec les membres de l'équipe et identifie et capitalise sur leurs forces tout en développant leurs faiblesses.</span>",
     "role": "Directeur, Conseiller en Stratégie d'Activation Numérique, RBC"
   },
   {
-    "image": "/t-nataliakantor.jpeg",
+    "id": "2",
+    "image": "/t-nataliakantor.webp",
     "name": "Natalia Kantor",
-    "quote": "Lionel était responsable du développement d'un site complexe pour Planet in Focus, le plus grand festival de films environnementaux du Canada. <span class='highlight'>Il est un programmeur fiable, accessible et inventif</span> avec d'incroyables compétences en résolution de problèmes.",
-    "role": "Gestionnaire des Communications, Planet in Focus"
+    "quote": "Lionel était responsable du développement d'un site complexe pour Planet in Focus, le plus grand festival de films environnementaux du Canada. <span class='highlight'>C'est un programmeur fiable, accessible et inventif</span> avec d'incroyables compétences en résolution de problèmes.",
+    "role": "Gestionnaire des communications, Planet in Focus"
   },
   {
-    "image": "/t-cathymoore.jpg",
+    "id": "3",
+    "image": "/t-nataliakantor.webp",
+    "name": "Natalia Kantor",
+    "quote": "<span class='highlight'>Lionel était responsable du développement d'un site complexe pour Planet in Focus, le plus grand festival de films environnementaux du Canada.</span> C'est un programmeur fiable, accessible et inventif avec d'incroyables compétences en résolution de problèmes.",
+    "role": "Gestionnaire des communications, Planet in Focus"
+  },
+  {
+    "id": "4",
+    "image": "/t-cathymoore.webp",
     "name": "Cathy Moore",
-    "quote": "Un excellent stratège en ligne, Lionel est passionné par les tendances émergentes et apporte continuellement de nouvelles idées à la table.  <span class='highlight'>Il est un créatif, un joueur d'équipe exceptionnel, et un excellent coach et enseignant.</span>",
-    "role": "Directrice en ligne, Société canadienne du cancer"
+    "quote": "Un excellent stratège en ligne, Lionel est passionné par les tendances émergentes et apporte continuellement de nouvelles idées.  <span class='highlight'>C'est un concepteur créatif, un joueur d'équipe exceptionnel et un excellent coach et enseignant.</span>",
+    "role": "Directeur en ligne, Société canadienne du cancer"
   },
   {
-    "image": "/t-stevehurtado.jpeg",
+    "id": "5",
+    "image": "/t-cathymoore.webp",
+    "name": "Cathy Moore",
+    "quote": "<span class='highlight'>Un excellent stratège en ligne, Lionel est passionné par les tendances émergentes et apporte continuellement de nouvelles idées.</span>  C'est un concepteur créatif, un joueur d'équipe exceptionnel et un excellent coach et enseignant.",
+    "role": "Directeur en ligne, Société canadienne du cancer"
+  },
+  {
+    "id": "6",
+    "image": "/t-stevehurtado.webp",
     "name": "Steve Hurtado",
-    "quote": "Il était techniquement compétent, connaissait bien les capacités du produit, <span class='highlight'>un bon communicateur, et était toujours professionnel et agréable à travailler avec.</span> Il serait un atout pour toute organisation.",
+    "quote": "Il était techniquement compétent, connaissait bien ce que le produit pouvait ou ne pouvait pas faire, <span class='highlight'>était un bon communicateur et était toujours professionnel et agréable à travailler.</span> Il serait un atout pour n'importe quelle organisation.",
     "role": "Responsable mondial de l'incubation, Google"
   },
   {
-    "image": "/t-chrisfrey.jpg",
+    "id": "7",
+    "image": "/t-chrisfrey.webp",
     "name": "Chris Frey",
-    "quote": "<span class='highlight'>Si Lionel était mécanicien automobile, il serait aussi heureux sous le capot, bricolant avec le moteur, que fasciné par les détails de conception.</span> Il est un résolveur de problèmes ingénieux qui pousse constamment ses compétences.",
-    "role": "Fondateur d'Outpost, No Media Co."
+    "quote": "<span class='highlight'>Si Lionel était mécanicien automobile, il serait aussi heureux sous le capot, travaillant sur le moteur, qu'il serait obsédé par les détails de conception.</span> C'est un résolveur de problèmes ingénieux qui pousse constamment ses compétences.",
+    "role": "Fondateur Outpost, No Media Co."
   },
   {
-    "image": "/t-rodneyronquillo.jpeg",
+    "id": "8",
+    "image": "/t-rodneyronquillo.webp",
     "name": "Rodney Ronquillo",
-    "quote": "Lionel est un professionnel compétent et orienté vers les détails,  <span class='highlight'>démontrant des qualités exceptionnelles de leadership.</span> Recherchant constamment des moyens d'améliorer ses contributions à l'organisation et à ses collègues.",
-    "role": "Designer, Producteur"
+    "quote": "Lionel est un professionnel compétent et axé sur les détails,  <span class='highlight'>démontrant des qualités de leadership exceptionnelles.</span> Cherchant constamment des moyens d'améliorer ses contributions à l'organisation et aux collègues.",
+    "role": "Concepteur, Producteur"
   },
   {
-    "image": "/t-cathymoore.jpg",
+    "id": "9",
+    "image": "/t-cathymoore.webp",
     "name": "Cathy Moore",
-    "quote": "Pendant son séjour à la CCS, Lionel a développé un historique de recherche et de <span class='highlight'>présentation d'idées compréhensibles, exploitables et mesurables, et de gestion réussie</span> de ces projets résultants.",
-    "role": "Directrice en ligne, Société canadienne du cancer"
+    "quote": "Pendant son temps à la CCS, Lionel a développé un historique de recherche et de <span class='highlight'>présentation d'idées compréhensibles, réalisables et mesurables, et a réussi à gérer</span> les projets qui en ont résulté.",
+    "role": "Directeur en ligne, Société canadienne du cancer"
   },
   {
-    "image": "/t-rachnasharma.jpeg",
+    "id": "10",
+    "image": "/t-rachnasharma.webp",
     "name": "Rachna Sharma",
-    "quote": "Collaborer avec Lionel sur divers projets, y compris un projet pilote à la Cancer Society, a été vraiment agréable. <span class='highlight'>Sa compétence technique et son attention minutieuse aux détails</span> font de lui un atout précieux pour l'équipe !",
-    "role": "Directrice chez Sun Life Financial"
+    "quote": "Collaborer avec Lionel sur divers projets, y compris un projet pilote à la Société du cancer, a été vraiment agréable. <span class='highlight'>Sa compétence technique et son attention méticuleuse aux détails</span> font de lui un atout précieux pour l'équipe!",
+    "role": "Directeur chez Sun Life Financial"
   },
   {
-    "image": "/t-catherineallman.jpeg",
+    "id": "11",
+    "image": "/t-catherineallman.webp",
     "name": "Catherine Allman",
-    "quote": "Lionel a <span class='highlight'>associé créativité et fiabilité pour produire une excellente présence en ligne, à temps</span> pour la Société canadienne du cancer.",
-    "role": "Exécutive en Communications & Affaires publiques"
+    "quote": "Lionel a <span class='highlight'>allié créativité et fiabilité pour produire une excellente présence en ligne, à temps</span> pour la Société canadienne du cancer.",
+    "role": "Cadre des communications et des affaires publiques"
   }
 ]
