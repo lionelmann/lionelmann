@@ -2,12 +2,12 @@
   <div>
     <div class="meta">{{ $t("header.meta") }}</div>
     <h1 class="intro">{{ $t("header.headline") }}</h1>
-    <!--<LinkCTA
-      :text="$t('bookmybrain')"
-      link="https://calendly.com/lionelmann/one-on-one"
+    <LinkCTA
+      :text="$t('letschat')"
+      link="mailto:lionelmann@gmail.com"
       target="_blank"
       size="19px"
-    />-->
+    />
   </div>
 </template>
 

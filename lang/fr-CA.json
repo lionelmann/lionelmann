@@ -1,7 +1,8 @@
 {
   "header": {
-    "headline": "Aider les gens à harmoniser leurs objectifs d'entreprise avec des expériences numériques positives et mémorables.",
-    "meta": "Besoin d'aide pour votre site web et vos objectifs en ligne?"
+    "meta": "Harmoniser les objectifs d'entreprise avec les expériences numériques.",
+    "headline": "Besoin d'aide pour construire votre site web et atteindre vos objectifs en ligne?"
+    
   },
   "menu": {
     "one": "Comment je travaille",
@@ -11,9 +12,10 @@
   },
   "email": "Envoyez-moi un courriel",
   "bookmybrain": "Réservez mon cerveau",
+  "letschat": "Discutons",
   "notes": "Notes de cours",
   "clients": {
-    "headline": "Organisations, entreprises et entrepreneurs avec lesquels j'ai collaboré"
+    "headline": "Organisations, entreprises et entrepreneurs avec lesquels j'ai travaillé"
   },
   "principles": {
     "headline": "Principes pour construire un meilleur web",
@@ -23,7 +25,7 @@
   },
   "about": {
     "title": "À propos de moi",
-    "content": "<p>Je dirige les initiatives de développement chez <a href=\"https://hypenotic.com\" target=\"_blank\" class=\"link\">Hypenotic</a>, une entreprise torontoise spécialisée en conception, développement et stratégie, et fondatrice de la B Corporation canadienne.</p> <p>À côté, je m'engage dans des travaux indépendants de stratégie et de développement, répondant à des projets et des clients qui peuvent ne pas correspondre à la portée d'une agence complète en raison de contraintes budgétaires ou logistiques.</p> <p>Mon engagement s'étend à la création d'applications et de sites web sur mesure et performants, qui privilégient l'optimisation, les normes web, la réactivité mobile et la durabilité environnementale comme principes fondamentaux.</p> <p>J'offre une expertise en stratégie, conception UX, développement, expérience utilisateur, commerce électronique et l'établissement d'objectifs mesurables.</p> <p>Au fil du temps, j'ai cultivé un réseau de partenaires capables de fournir des services supplémentaires, y compris la conception et la création de contenu.</p> <p>Si vous avez un projet et recherchez une approche collaborative :</p>",
+    "content": "<p>Je me spécialise dans le développement web et la stratégie, en me concentrant sur des projets et des clients qui pourraient ne pas correspondre au cadre d'une agence plus importante en raison de contraintes budgétaires ou logistiques.</p> <p>Je crée des applications et des sites web sur mesure et performants en mettant l'accent sur l'optimisation, la réactivité mobile et la durabilité environnementale.</p><p>Mes services comprennent la stratégie, la conception UX, le développement, le commerce électronique, l'établissement d'objectifs et la gestion du projet de A à Z.</p> <p>Je vis à Montréal, Canada, avec ma femme, une réalisatrice primée, et nos deux enfants. J'équilibre ma vie professionnelle avec des intérêts personnels tels que les voyages, le fitness, les sports et les défis personnels comme les ultramarathons.</p><p>Si vous avez un projet, discutons-en.</p>"
   },
     "helpWith": {
     "title": "Je peux aider avec",

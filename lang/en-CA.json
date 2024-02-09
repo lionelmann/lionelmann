@@ -1,7 +1,7 @@
 {
   "header": {
-    "headline": "Helping people harmonise their business objectives with positive and memorable digital experiences.",
-    "meta": "Need help with your website and online goals?"
+    "meta": "Harmonising business objectives with digital experiences.",
+    "headline": "Need help building your website and achieving your online goals?"
   },
   "menu": {
     "one": "How I Work",
@@ -11,9 +11,10 @@
   },
   "email": "Email Me",
   "bookmybrain": "Book My Brain",
+  "letschat": "Let's Chat",
   "notes": "Course Notes",
   "clients" : {
-    "headline": "Organisations, companies & entrepreneurs I've collaborated with"
+    "headline": "Organisations, companies & entrepreneurs I've worked with"
   },
   "principles": {
     "headline":"Principles for building a better web",
@@ -23,7 +24,7 @@
   },
   "about": {
     "title": "About Me",
-    "content": "<p>I lead the development initiatives at <a href=\"https://hypenotic.com\" target=\"_blank\" class=\"link\">Hypenotic</a>, a Toronto based design, development, and strategy firm and founding Canadian B Corporation.</p> <p>On the side, I engage in independent strategy and development work, catering to projects and clients that may not align with the scope of a comprehensive agency due to budgetary or logistical constraints.</p> <p>My commitment extends to crafting bespoke, performant apps and websites that prioritize optimization, web standards, mobile responsiveness, and environmental sustainability as core tenets.</p> <p>I offer expertise in strategy, UX design, development, user experience, e-commerce and the establishment of measurable goals.</p> <p>Over time, I've cultivated a network of partners capable of delivering supplementary services, including design and content creation.</p> <p>If you have a project and seek a collaborative approach:</p>",
+    "content": "<p>I specialize in web development and strategy, focusing on projects and clients that might not fit within a larger agency's scope due to various limitations.</p> <p>I create customized, high-performing apps and websites with a focus on optimization, mobile responsiveness, and environmental sustainability.</p><p>My services include strategy, UX design, development, e-commerce, goal-setting and managing the project from start to finish.</p> <p>I live in Montreal, Canada with my wife who is an award winning filmmaker and our two children.  I balance my professional life with personal interests in travel, fitness, sports, and challenging myself with ultramarathons.</p><p>If you have a project let's discuss.</p>"
   },
    "helpWith": {
     "title": "I can help with",

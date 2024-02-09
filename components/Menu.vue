@@ -110,6 +110,17 @@
           <Icon name="heroicons:globe-alt" /> FR
         </NuxtLink>
       </li>
+      <!--<li>
+        <div
+          @click="updateColorMode('dark')"
+          v-if="colorMode.value === 'light'"
+        >
+          <Icon name="heroicons:moon" />
+        </div>
+        <div @click="updateColorMode('light')" v-else>
+          <Icon name="heroicons:sun" />
+        </div>
+      </li>-->
     </ul>
   </nav>
 </template>
@@ -120,6 +131,11 @@ const hoverHome = ref(false);
 const hoverAbout = ref(false);
 const hoverCaseStudies = ref(false);
 const hoverContact = ref(false);
+
+const colorMode = useColorMode();
+const updateColorMode = (mode) => {
+  colorMode.preference = mode;
+};
 </script>
 
 <style lang="scss" scoped>
@@ -160,7 +176,15 @@ nav {
   }
 }
 
+.light-mode .menu li a {
+  color: #000;
+}
+
 .menu li:nth-child(1) {
   padding-left: 0px;
+}
+
+.icon {
+  margin-bottom: 3px;
 }
 </style>
