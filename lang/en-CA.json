@@ -1,7 +1,7 @@
 {
   "header": {
-    "meta": "Harmonising business objectives with digital experiences.",
-    "headline": "Need help building your website and achieving your online goals?"
+    "meta": "Harmonising business objectives with digital experiences",
+    "headline": "Helping move your web project from A to Z (and everything in between)"
   },
   "menu": {
     "one": "How I Work",
@@ -32,11 +32,11 @@
   },
   "built": "Built with",
   "howWeWork": {
-    "title": "How We Work",
+    "title": "How I Work",
     "tagline": "The Nitty Gritty",
     "background": {
       "title": "Background",
-      "content": "<p> I lead the development initiatives at <a href='https://hypenotic.com' target='_blank' class='link'>Hypenotic</a>, a Toronto based design, development, and strategy firm and founding Canadian B Corporation.</p><p>On the side, I engage in independent strategy and development work, catering to projects and clients that may not align with the scope of a comprehensive agency due to budgetary or logistical constraints. </p><p>My commitment extends to crafting bespoke, performant apps and websites that prioritize optimization, web standards, mobile responsiveness, and environmental sustainability as core tenets.</p><p>I offer expertise in strategy, UX design, development, user experience, e-commerce and the establishment of measurable goals.</p>",
+      "content": "<p>I specialize in web development and strategy, focusing on projects and clients that might not fit within a larger agency's scope due to various limitations.</p> <p>I create customized, high-performing apps and websites with a focus on optimization, mobile responsiveness, and environmental sustainability.</p><p>My services include strategy, UX design, development, e-commerce, goal-setting and managing the project from start to finish.</p>",
     },
     "approach": {
       "title": "Collaborative Approach",
@@ -74,7 +74,7 @@
       },
      "roleTwo": {
       "title": "Technical Specialist, E-Business",
-      "content": "<p>Lorem ipsum dolor sit amet consectet adipiscing elit et et est eget tortor lacus aliquam pulvinar senectus ut sapien sed nun</p>",
+      "content": "<p>Led the redesign of cancer.ca in 2007, doubling traffic since 2003 to 3.34M visits. Managed the RFP process, integrated design into Vignette, and acted as lead programmer. Developed 280 online fundraising events in Convio CRM, crafted blueprints, e-newsletters, and UI. Chaired meetings with vendors, managed Google Search Appliance delivery, and collaborated with IT/Web team for integration.</p>",
       "startDate": "Jan 2001",
       "endDate": "Jul 2009"
     },
@@ -117,7 +117,7 @@
     "intro": " <p>I am dedicated to fostering responsible decision-making for my clients. My aim is to operate ethically and in a way that serves as a positive force.</p><p>This is constantly being evaluated and is a work in progress.</p>",
     "whatDone": {
       "title": "What I've done",
-      "content": "<ul><li>Taken The Ethical Move's pledge</li><li>Support the Electronic Frontier Foundation</li><li>Only accept work I know I can deliver</li><li>Ensure prompt and fair payment</li><li>Maintain transparency in the process, clearly communicating capabilities and limitations</li><li>Use Social media responsibly</li></ul>",
+      "content": "<ul><li>Taken The Ethical Move's pledge</li><li>Support the Electronic Frontier Foundation</li><li>Only accept work I know I can deliver</li><li>Ensure prompt and fair payment</li><li>Maintain transparency in the process, clearly communicating capabilities and limitations</li><li>Use Social Media responsibly</li></ul>",
     },
     "whatNotDone":{
       "title": "What I Won't do",

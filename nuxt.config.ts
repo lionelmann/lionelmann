@@ -54,13 +54,13 @@ export default defineNuxtConfig({
       meta: [
         { charset: "utf-8" },
         { name: "viewport", content: "width=device-width, initial-scale=1" },
-        { hid: "description", name: "description", content: "Hi, I help people harmonise their business objectives with positive and memorable digital experiences." },
+        { hid: "description", name: "description", content: "Helping people move their web projects from A to Z (and everything in between)" },
         { name: "format-detection", content: "telephone=no" },
   
         {
           hid: "description",
           name: "description",
-          content: "Hi, I help people harmonise their business objectives with positive and memorable digital experiences.",
+          content: "Helping people move their web projects from A to Z (and everything in between)",
         },
   
         {
@@ -77,7 +77,7 @@ export default defineNuxtConfig({
         {
           hid: "og:description",
           name: "og:description",
-          content: "Hi, I help people harmonise their business objectives with positive and memorable digital experiences.",
+          content: "Helping people move their web projects from A to Z (and everything in between)",
         },
         {
           hid: "og:image",
@@ -93,7 +93,7 @@ export default defineNuxtConfig({
         {
           hid: "twitter:description",
           name: "twitter:description",
-          content: "Hi, I help people harmonise their business objectives with positive and memorable digital experiences.",
+          content: "Helping people move their web projects from A to Z (and everything in between)",
         },
         {
           hid: "twitter:image",
@@ -109,7 +109,8 @@ export default defineNuxtConfig({
       link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
       script: [{
         src: "https://unpkg.com/website-carbon-badges@1.1.3/b.min.js",
-        defer: true
+        defer: true,
+        body: true
       }],
     }
   },
