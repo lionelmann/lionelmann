@@ -1,6 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-  modules: ['nuxt-gtag','@nuxt/image','nuxt-aos','@nuxtjs/color-mode','nuxt-icon',['@nuxtjs/google-fonts', {
+  modules: ['nuxt-gtag','@nuxt/image','nuxt-aos','nuxt-icon',['@nuxtjs/google-fonts', {
     families: {
       'Ubuntu': true,
       'Lora': true,

@@ -132,10 +132,10 @@ const hoverAbout = ref(false);
 const hoverCaseStudies = ref(false);
 const hoverContact = ref(false);
 
-const colorMode = useColorMode();
+/*const colorMode = useColorMode();
 const updateColorMode = (mode) => {
   colorMode.preference = mode;
-};
+};*/
 </script>
 
 <style lang="scss" scoped>
