@@ -33,11 +33,11 @@
   },
   "built": "Construit avec",
   "howWeWork": {
-    "title": "Notre Méthode de Travail",
+    "title": "Comment Je Travaille",
     "tagline": "Les Détails Importants",
     "background": {
       "title": "Contexte",
-      "content": "<p>Je dirige les initiatives de développement chez <a href='https://hypenotic.com' target='_blank' class='link'>Hypenotic</a>, une agence de conception, développement et stratégie basée à Toronto et fondatrice d'une B Corporation canadienne.</p><p>Parallèlement, je m'engage dans des travaux indépendants de stratégie et de développement, répondant à des projets et clients qui peuvent ne pas correspondre à la portée d'une agence complète en raison de contraintes budgétaires ou logistiques.</p><p>Mon engagement se traduit par la création d'applications et de sites web sur mesure et performants, privilégiant l'optimisation, les normes web, la réactivité mobile et la durabilité environnementale comme principes fondamentaux.</p><p>J'offre une expertise en stratégie, conception UX, développement, expérience utilisateur, commerce électronique et l'établissement d'objectifs mesurables.</p>"
+      "content": "<p>Je me spécialise dans le développement web et la stratégie, en me concentrant sur des projets et des clients qui pourraient ne pas correspondre au cadre d'une agence plus importante en raison de contraintes budgétaires ou logistiques.</p> <p>Je crée des applications et des sites web sur mesure et performants en mettant l'accent sur l'optimisation, la réactivité mobile et la durabilité environnementale.</p><p>Mes services comprennent la stratégie, la conception UX, le développement, le commerce électronique, l'établissement d'objectifs et la gestion du projet de A à Z.</p>"
     },
     "approach": {
       "title": "Approche Collaborative",

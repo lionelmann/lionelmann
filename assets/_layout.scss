@@ -10,13 +10,6 @@ article {
     margin: 0 auto;
 }
 
-.grid-testimonials {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 40px;
-    margin: 48px auto;
-  }
-
 .grid-edge-left-right {
     display: flex;
     justify-content: space-between;

@@ -23,12 +23,13 @@
 
 <style lang="scss" scoped>
 h2 {
-  font: normal 400 69px/110% Lora;
+  font: normal clamp(40px, 6vw, 69px) / 110% Lora;
   max-width: 80%;
+  @media (max-width: 500px) {
+    max-width: 100%;
+  }
 }
-p {
-  font: normal 400 23px/150% "Ubuntu";
-}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -51,17 +52,20 @@ p {
 
 .item-1 {
   grid-template-columns: 1fr 1.7fr;
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .item-2 {
   grid-template-columns: 1.7fr 1fr;
+  @media (max-width: 500px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .grid-row {
   grid-template-columns: 1fr;
-  @media (max-width: 768px) {
-    grid-template-columns: 1.7fr 1fr;
-  }
 }
 
 .span-row {

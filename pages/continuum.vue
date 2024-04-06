@@ -7,13 +7,13 @@
 
     <Divider top="80px" bottom="96px" />
 
-    <div class="grid-testimonials" data-aos="fade-up">
+    <MyTestimonialsContainer>
       <MyTestimonials
         v-for="(testimonial, index) in cherryPickedTestimonials([8, 9])"
         :key="index"
         :testimonial="testimonial"
       />
-    </div>
+    </MyTestimonialsContainer>
 
     <Divider top="96px" bottom="96px" />
 
@@ -21,13 +21,13 @@
 
     <Divider top="96px" bottom="96px" />
 
-    <div class="grid-testimonials" data-aos="fade-up">
+    <MyTestimonialsContainer>
       <MyTestimonials
         v-for="(testimonial, index) in cherryPickedTestimonials([1, 2])"
         :key="index"
         :testimonial="testimonial"
       />
-    </div>
+    </MyTestimonialsContainer>
 
     <Divider top="96px" bottom="96px" />
 
@@ -35,13 +35,13 @@
 
     <Divider top="96px" bottom="96px" />
 
-    <div class="grid-testimonials" data-aos="fade-up">
+    <MyTestimonialsContainer>
       <MyTestimonials
         v-for="(testimonial, index) in cherryPickedTestimonials([5, 6, 7, 11])"
         :key="index"
         :testimonial="testimonial"
       />
-    </div>
+    </MyTestimonialsContainer>
   </div>
 </template>
 

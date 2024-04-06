@@ -42,13 +42,13 @@
 
     <Divider top="80px" bottom="96px" />
 
-    <div class="grid-testimonials" data-aos="fade-up">
+    <MyTestimonialsContainer>
       <MyTestimonials
         v-for="(testimonial, index) in cherryPickedTestimonials([0, 2, 1, 9])"
         :key="index"
         :testimonial="testimonial"
       />
-    </div>
+    </MyTestimonialsContainer>
   </div>
 </template>
 

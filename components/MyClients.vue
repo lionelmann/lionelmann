@@ -54,6 +54,9 @@ h3 {
   width: 90%;
   margin: 0 auto;
   text-align: center;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 
 .grid {

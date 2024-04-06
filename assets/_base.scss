@@ -47,27 +47,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font: normal 500 118px/95% 'Lora';
+  font: normal 500 clamp(50px, 10vw, 118px)/95% 'Lora';
 }
 
 h2 {
-  font: normal 500 57px/105% 'Lora';
+  font: normal clamp(40px, 4vw, 57px)/105% 'Lora';
 }
 
 h3 {
-  font: normal 500 47px/120% 'Lora';
+  font: normal clamp(27px, 4vw, 47px)/120% 'Lora';
 }
 
 h4 {
-  font: normal 500 39px/120% 'Ubuntu';
+  font: normal clamp(30px, 3.5vw, 39px)/120% 'Ubuntu';
 }
 
 h5 {
-  font: normal 500 33px/120% 'Ubuntu';
+  font: normal clamp(26px, 3vw, 33px)/120% 'Ubuntu';
 }
 
 h6 {
-  font: normal 500 23px/120% 'Ubuntu';
+  font: normal clamp(20px, 2.5vw, 23px)/120% 'Ubuntu';
   text-transform: uppercase;
 }
 
@@ -77,7 +77,7 @@ p {
 }
 
 .intro {
-  font: normal 500 68px/110% 'Lora';
+  font: normal clamp(40px, 6vw, 68px)/110% 'Lora';
 }
 
 
