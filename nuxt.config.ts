@@ -37,9 +37,7 @@ export default defineNuxtConfig({
     "~/assets/_base.scss", "~/assets/_layout.scss",
   ],
   gtag: {
-    // The Google Analytics 4 property ID to use for tracking
     id: 'G-Y4146R4STR',
-    // Additional configuration for the Google Analytics 4 property
     config: {
       page_title: 'Lionel Mann'
     }
@@ -106,7 +104,9 @@ export default defineNuxtConfig({
           content: "summary_large_image",
         },
       ],
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      link: [
+      {rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
+      {rel: "icon", type: "image/png", href: "/favicon.png" }],
       script: [{
         src: "https://unpkg.com/website-carbon-badges@1.1.3/b.min.js",
         defer: true,
